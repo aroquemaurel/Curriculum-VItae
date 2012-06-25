@@ -1,0 +1,186 @@
+% Taille de la police du CV et le format
+\documentclass[11pt,a4paper]{cv}
+
+% Un certain nombre de packages sont déjà inclus par la classe CV
+\usepackage[english]{babel} 
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+
+% Langue
+\Language{english}
+
+% Méta-données PDF
+\hypersetup{
+	pdfauthor   = {Olivier BICHLER},		% C'est vous qui avez fait le PDF
+	pdftitle    = {Curriculum Vitae},
+%	pdfsubject  = {},
+%	pdfkeywords = {},
+	pdfcreator  = {PDFLaTeX},						% Vous l'avez fait avec LateX !
+	pdfproducer = {PDFLaTeX}
+}
+
+% Couleur des liens hypertextes, si vous voulez les faire ressortir
+\definecolor{urlcolor}{rgb}{0, 0, 0.5}
+
+% Version (0 = simple, devrait rentrer sur une page et 1 = détaillé)
+% Par défaut, tout est inclus dans la version simple sauf les cours (\Course{}).
+% Pour n'inclure un élément que dans la version détaillée, ajouter l'argument [\detailedOnly]
+% (cela n'est toutefois pas implémenté partout, votre nom par exemple ne peut pas ne pas figurer dans la version simple)
+\Detailed{1}
+
+% Marges
+\geometry{
+	hmargin=2.3cm,			% Marges gauche-droite
+	vmargin=2.5cm				% Marges haut-bas
+}
+
+% Largeur de la colonne de gauche
+\setlength{\colwidth}{2.5cm}
+
+% Espacements
+\smallskipamount=1mm	% Espace entre les différents entrées d'une section
+\medskipamount=3mm		% Espace entre les sections
+\bigskipamount=5mm		% Espace entre le chapeau et l'objectif ou la première section
+
+\begin{document}
+
+% Le CV commence ici
+%%%%%%%%%%%%%%%%%%%%
+
+% Chapeau (= informations personnelles)
+\begin{heading}
+	\Name{Olivier BICHLER}
+	\Address{30, rue des Fleurs, Blies-Schweyen\\
+		57~200 Blies-Guersviller, France}
+	\Telephone{(+33)~6~18~53~28~47}
+	\Email{olivier.bichler@ens-cachan.fr}		% Un lien hypertexte est automatiquement créé pour l'Email
+	\Nationality{French}
+	\DateOfBirth{March 30, 1985}
+	\Age{22}
+	\Gender{M}	% M = Masculin, F = Féminin. Est utilisé pour savoir s'il faut écrire Né ou Née par exemple ;-)
+	\MaritalStatus{Single}
+	\Mobility{Licensed to drive a motor vehicle}
+	\Photo{Photo.jpg}	% Vous pouvez choisir de mettre une photo ou pas.
+	% sa dimension est sans importance, au final sa hauteur est fixée à 3cm 
+	% et son rapport hauteur/largeur est concervé.
+	% Meilleure est sa résolution, mieux c'est !
+\end{heading}
+
+% Objectif (optionnel)
+\begin{objective}
+find a research internship in applied physics field.
+\end{objective}
+
+% Première section
+\begin{section}{Education}
+	\begin{entry}
+		% Commence une nouvelle entrée
+		\Date{2007 -- 2008}
+		% Il est possible d'ajouter des liens hypertextes n'importe où.
+		\Place{\href{http://www.ens-cachan.fr/}{École Normale Supérieure de Cachan}}
+%		\Locality{Cachan}
+		\Country{France}
+		\Activity{One year of preparation for a high level national competitive exam known as the ``agrégation''}
+	\end{entry}
+	\begin{entry}
+		\Date{2006 -- 2007}
+		\Place{\href{http://www.ens-cachan.fr/}{École Normale Supérieure de Cachan}}
+%		\Locality{Cachan}
+		\Country{France}
+		\Activity{First year of M.Sc. in Electrical Engineering and Applied Physics}
+	\end{entry}
+	\begin{entry}
+		\Date{2005 -- 2006}
+		\Place{\href{http://www.ens-cachan.fr/}{École Normale Supérieure de Cachan}\newline
+		\href{http://www.u-psud.fr/}{Université Paris-Sud 11 Orsay}}
+%		\Locality{Cachan}
+		\Country{France}
+		\Activity{First-year enrollment in one of the nation's most prestigious and competitive institutions of higher education - awarded the status of student-professor in the school's EEA (Applied Physics and Electrical Engineering) Department}
+		\Activity{Final year of B.Sc. in Electrical Engineering and Applied Physics}
+		\Event{Graduated with high honors}
+	\end{entry}
+	\begin{entry}
+		\Date{July 2005}
+		\Event{Admitted to ENS de Cachan, one of France's top three or four schools, following a highly-competitive selection process. Also admitted to the selective École Centrale-Paris engineering school}
+	\end{entry}
+	\begin{entry}
+		\Date{2003 -- 2005}
+		\Place{\href{http://www.lycee-kleber.com.fr/}{Lycée Kléber}}
+		\Locality{Strasbourg}
+		\Country{France}
+		\Activity{Completed a two-year scientific program in preparation for the national ``Grande École'' competitive exam}
+	\end{entry}
+	\begin{entry}[\detailedOnly]
+		\Date{2000 -- 2003}
+		\Place{\href{http://www.ac-nancy-metz.fr/Pres-etab/Nomine/}{Lycée Henri Nominé}}
+		\Locality{Sarreguemines}
+		\Country{France}
+		\Activity{High School Diploma specialized in Science, Honors graduate (Baccalauréat)}
+	\end{entry}	
+\end{section}
+
+\begin{section}{Work Experience}
+	\begin{entry}
+		\Date{2007}
+		\Duration{6 months}
+		\Place{\href{http://web.mit.edu/}{Massachusetts Institute of Technology}}
+		\Locality{Cambridge MA}
+		\Country{USA}
+		\Activity{Research internship in Integrated Systems Group, supervised by Assistant Professor Vladimir Stojanovic}		
+		\Course{Microelectronic Devices and Circuits}
+		\Course{Complex Digital Systems Design}
+		\Course{CMOS Analog and Mixed-Signal Circuit Design}	
+	\end{entry}
+	\begin{entry}[\detailedOnly]
+		\Date{2006}
+		\Duration{20 hours}
+		\Place{\href{http://www.iut-cachan.fr/}{IUT de Cachan}}
+%		\Locality{Cachan}
+		\Country{France}
+		\Activity{Teacher-training course in first year of DUT GEII (Electrical Engineering and Computer Science)}
+	\end{entry}
+	\begin{entry}
+		\Date{2006}
+		\Duration{one month}
+		\Place{smart France}
+		\Locality{Hambach}
+		\Country{France}
+		\Activity{Internship in the maintenance process team (Smart Fortwo vehicles assembly line maintenance)}
+	\end{entry}	
+\end{section}
+
+\begin{section}{Language and Computer Skills}
+	\begin{entry}
+		\Skill{French:}
+		\Activity{mother tongue}
+	\end{entry}
+	\begin{entry}
+		\Skill{English:}
+		\Activity{fluent, TOEIC score of 905/990, December 2006}
+		\Activity[\detailedOnly]{TOEFL iBT score of 84/120, March 2006}		
+	\end{entry}
+	\begin{entry}
+		\Skill{German:}
+		\Activity{moderately fluent}
+	\end{entry}
+
+	\singleEntry{$\cdot$ Good knowledge of C/C++ and Java programming languages, as well as Web languages such as PHP, XML, CSS and JavaScript}
+	\singleEntry{$\cdot$ Experience with Maple and Matlab}
+	\singleEntry{$\cdot$ Good working knowledge of Microsoft Windows and Office}
+	\smallSkip
+\end{section}
+
+\begin{section}{Interests and Activities}
+	\singleEntry{$\cdot$ Computer programming}
+	\singleEntry{$\cdot$ Member of the ENS Robotics Club}
+	\singleEntry{$\cdot$ Badminton, swimming}
+\end{section}
+
+\begin{section}{References}
+	\singleEntry{Available upon request}
+\end{section}
+
+% Le CV termine ici
+%%%%%%%%%%%%%%%%%%%
+
+\end{document}

@@ -3,10 +3,10 @@ Type=TeXnicCenterProjectInformation
 Version=4
 
 [ProjectInfo]
-MainFile=cv_en.tex
+MainFile=cv_fr.tex
 UseBibTeX=0
 UseMakeIndex=0
 ActiveProfile=LaTeX => PDF
-ProjectLanguage=en
-ProjectDialect=US
+ProjectLanguage=fr
+ProjectDialect=FR-1990
 

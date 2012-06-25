@@ -16,12 +16,12 @@ MinPos.x=-1
 MinPos.y=-1
 MaxPos.x=-4
 MaxPos.y=-30
-NormalPos.left=66
-NormalPos.top=66
-NormalPos.right=934
-NormalPos.bottom=388
+NormalPos.left=0
+NormalPos.top=0
+NormalPos.right=868
+NormalPos.bottom=329
 Class=CLatexEdit
-Document=cv_en.tex
+Document=cv_fr.tex
 
 [Frame0_Row0]
 cyCur=478
@@ -32,9 +32,9 @@ cxCur=954
 cxMin=10
 
 [Frame0_View0,0]
-Cursor.row=0
-Cursor.column=0
-TopSubLine=87
+Cursor.row=127
+Cursor.column=13
+TopSubLine=113
 
 [Frame1]
 Columns=1
@@ -45,10 +45,10 @@ MinPos.x=-1
 MinPos.y=-1
 MaxPos.x=-4
 MaxPos.y=-30
-NormalPos.left=110
-NormalPos.top=110
-NormalPos.right=982
-NormalPos.bottom=436
+NormalPos.left=22
+NormalPos.top=22
+NormalPos.right=894
+NormalPos.bottom=348
 Class=CLatexEdit
 Document=cv.cls
 
@@ -61,7 +61,7 @@ cxCur=843
 cxMin=10
 
 [Frame1_View0,0]
-Cursor.row=240
-Cursor.column=0
-TopSubLine=226
+Cursor.row=4
+Cursor.column=19
+TopSubLine=0
 
