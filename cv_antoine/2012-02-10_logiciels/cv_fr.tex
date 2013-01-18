@@ -1,0 +1,206 @@
+  % Taille de la police du CV et le format
+\documentclass[10pt,a4paper]{cv}
+
+% Un certain nombre de packages sont déjà inclus par la classe CV
+\usepackage[francais]{babel} 
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{color}
+% Langue
+\Language{francais}
+
+% Méta-données PDF
+\hypersetup{
+	pdfauthor   = {Antoine de Roquemaurel},		% C'est vous qui avez fait le PDF
+	pdftitle    = {Curriculum Vitae de Antoine de Roquemaurel},
+%	pdfsubject  = {},
+%	pdfkeywords = {},
+	pdfcreator  = {PDFLaTeX},						% Vous l'avez fait avec LateX !
+	pdfproducer = {PDFLaTeX}
+}
+
+% Couleur des liens hypertextes, si vous voulez les faire ressortir
+\definecolor{urlcolor}{rgb}{0, 0, 0.5}
+
+% Version (0 = simple, devrait rentrer sur une page et 1 = détaillé)
+% Par défaut, tout est inclus dans la version simple sauf les cours (\Course{}).
+% Pour n'inclure un élément que dans la version détaillée, ajouter l'argument [\detailedOnly]
+% (cela n'est toutefois pas implémenté partout, votre nom par exemple ne peut pas ne pas figurer dans la version simple)
+\Detailed{1}
+
+% Marges
+\geometry{
+	hmargin=1.4cm,			% Marges gauche-droite
+	vmargin=1.35cm				% Marges haut-bas
+}
+
+% Largeur de la colonne de gauche
+\setlength{\colwidth}{2.4cm}
+
+% Espacements
+\smallskipamount=2mm	% Espace entre les différents entrées d'une section
+\medskipamount=3mm		% Espace entre les sections
+\bigskipamount=5mm		% Espace entre le chapeau et l'objectif ou la première section
+
+\begin{document}
+
+% Le CV commence ici
+%%%%%%%%%%%%%%%%%%%%
+
+% Chapeau (= informations personnelles)
+\begin{heading}
+	\Name{\textbf{Antoine de Roquemaurel}}
+	\Address{23, avenue André Bousquairol\\
+		31~400 Toulouse}
+	\Telephone{06~84~33~52~93}
+	\Email{antoine.roquemaurel@gmail.com}		% Un lien hypertexte est automatiquement créé pour l'Email
+	\DateOfBirth{08 novembre 1991}
+%	\Age{19}
+	\Gender{M}	% M = Masculin, F = Féminin. Est utilisé pour savoir s'il faut écrire Né ou Née par exemple ;-)
+	\MaritalStatus{}
+	\Nationality{Française}
+	\Photo{Photo.jpg}	% Vous pouvez choisir de mettre une photo ou pas.
+	% sa dimension est sans importance, au final sa hauteur est fixée à 3cm 
+	% et son rapport hauteur/largeur est concervé.
+	% Meilleure est sa résolution, mieux c'est !
+\end{heading}
+	
+\titreCV{Développeur~stagiaire}
+
+%---
+% Objectif (optionnel)
+%\begin{objective}
+%trouver un stage de recherche long dans le domaine de l'électronique ou du traitement du signal.
+%\end{objective}
+%---
+
+\begin{section}{expériences}
+\end{section}
+\begin{subsection}{Expériences professionnelles}
+	\begin{entry}
+		\Skill{2 semaines}
+		\Date{Août~2009 ~~~~~~~~~~~~~~}
+		\Place{élaboration d'un site Internet}
+		\Locality{\textit{Yverdon-les-bains}}
+		\Country{\textit{Suisse}}
+		\Activity{Développement de toute l'architecture du site d'un artisan verrier, destiné à exposer ses pièces. Il est géré grâce à PHP, l'artisan peut donc l'administrer seul, comme il l'avait demandé}
+%		\Course{Il a la possibilité d'ajouter, d'éditer, de supprimer des photos, de changer leur ordre d'affichage, de modifier les contenus du site
+%			(CV, contact, biographie\ldots) d'ajouter de nouvelles catégories, d'ajouter des événements.\newline}
+		\Course{\url{http://valeriederoquemaurel.com}}
+	\end{entry}
+\end{subsection}
+\begin{subsection}{projets}
+	\begin{entry}
+		\Date{2012} 
+		\Skill{2 mois et demi}
+		\Place{Développement d'un logiciel de gestion des examens} 
+		\Locality{\textit{Toulouse}}
+		\Country{\textit{France}}
+		\Course{Développé avec la méthode Scrum en équipe de 6.\newline} 
+		\Course{Programmé en C++ en utilisant la bibliothèque \texttt{Qt}.}
+	\end{entry}
+	\begin{entry}
+		\Date{2011} 
+		\Skill{4 mois}
+		\Place{Développement d'une bibliothèque d'objets graphique \bsc{UML}}
+		\Locality{\textit{Toulouse}}
+		\Country{\textit{France}}
+		\Course{Développement par incrément en équipe de 4.\newline}
+		 \Course{Programmé en Java en se servant de la bibliothèque \texttt{JGraphX}.}
+	\end{entry}
+	\begin{entry}
+		\Date{2~\mbox{décembre} 2010 et 2011} 
+		\Place{participation à la nuit de l'informatique 2010 et 2011}
+		\Locality{\textit{Toulouse}}
+		\Country{\textit{France}}
+		\Activity{Concours national d'informatique réunissant des étudiants de toute la France. Le concept est de développer une application web en une nuit}
+		\Course{\url{http://nuitdelinfo.com/nuitinfo10/}\newline}
+		\Course{\url{http://nuitdelinfo.com/nuitinfo11/}}
+	\end{entry}
+\end{subsection}
+
+\begin{section}{formations}
+\begin{entry} \end{entry}
+	\begin{entry}
+		\Date{2011 -- 2012}
+		% Il est possible d'ajouter des liens hypertextes n'importe où. \href
+		\Place{2ème année de Diplôme Universitaire de Technologies informatique}
+		\Locality{\newline Institut Universitaire de Technologies - Université Toulouse III}
+		\Country{France}
+%		\Activity{}
+	\end{entry}
+
+	\begin{entry}
+		\Date{2010}
+		\Place{baccalauréat Sciences et Techniques de l'Industriel Génie Électro\-technique}
+		\Locality{Lycée Saint Joseph Toulouse}
+		\Country{France}
+%		\Activity{}
+		\Mention{Assez bien}	
+%		\Course{} %puce en forme de triangle
+	\end{entry}
+\end{section}
+\begin{section}{langues et informatique}
+\end{section}
+
+\begin{subsection}{compétences techniques}
+	\begin{entrytech}
+		\Competence{Programmation}
+		\Activity{C, C++, Java}
+	\end{entrytech}
+	\begin{entrytech}
+		\Competence{Web}
+		\Activity{XHTML, CSS, PHP}
+	\end{entrytech}
+	\begin{entrytech}
+		\Competence{Versionnement}
+		\Activity{Git, Subversion}
+	\end{entrytech}  
+	\begin{entrytech}
+		\Competence{SGBD}
+		\Activity{MySQL, Oracle}
+	\end{entrytech}  
+	\begin{entrytech}
+		\Competence{IDE}
+		\Activity{Netbeans, Eclipse, QtCreator}
+	\end{entrytech}  
+	\begin{entrytech}
+		\Competence{Méthode}
+		\Activity{Scrum, Merise}
+	\end{entrytech}  
+	\begin{entrytech}
+		\Competence{Système}
+		\Activity{Linux, \bsc{unix}, Windows}
+	\end{entrytech}  
+	\begin{entrytech}
+		\Competence{Bureautique}
+		\Activity{LaTeX, Suite OpenOffice, Suite Microsoft Office}
+	\end{entrytech}  
+	\begin{entrytech}
+		\Competence{Certification}
+		\Activity{Certificat Informatique et Internet}
+	\end{entrytech}  
+\end{subsection}
+\begin{subsection}{compétences en langue}
+	\begin{entrytech}
+		\Competence{Anglais}
+		\Activity{Technique lu et écrit}
+	\end{entrytech}  
+\end{subsection}
+
+\begin{section}{loisirs et activités}
+\begin{entry}\end{entry}
+	\begin{entrytech}
+		\Competence{Associatif}
+		\Activity{Animateur et trésorier pour les Scouts et Guides de France depuis 2009.\newline En formation de Brevet d'Aptitude à la Fonction d'Animateur}
+	\end{entrytech}  
+	\begin{entrytech}
+		\Competence{Culture}
+		\Activity{Lecture de science fiction (Asimov) et de fantastique (Tolkien)} 
+	\end{entrytech}  
+\end{section}
+
+% Le CV termine ici
+%%%%%%%%%%%%%%%%%%%
+
+\end{document}

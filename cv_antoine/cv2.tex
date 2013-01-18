@@ -1,0 +1,186 @@
+% Taille de la police du CV et le format
+\documentclass[11pt,a4paper]{cv}
+
+% Un certain nombre de packages sont déjà inclus par la classe CV
+\usepackage[francais]{babel} 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% Langue
+\Language{francais}
+
+% Méta-données PDF
+\hypersetup{
+	pdfauthor   = {Antoine de ROQUEMAUREL},		% C'est vous qui avez fait le PDF
+	pdftitle    = {Curriculum Vitae},
+%	pdfsubject  = {},
+%	pdfkeywords = {},
+	pdfcreator  = {PDFLaTeX},						% Vous l'avez fait avec LateX !
+	pdfproducer = {PDFLaTeX}
+}
+
+% Couleur des liens hypertextes, si vous voulez les faire ressortir
+\definecolor{urlcolor}{rgb}{0, 0, 0.5}
+
+% Version (0 = simple, devrait rentrer sur une page et 1 = détaillé)
+% Par défaut, tout est inclus dans la version simple sauf les cours (\Course{}).
+% Pour n'inclure un élément que dans la version détaillée, ajouter l'argument [\detailedOnly]
+% (cela n'est toutefois pas implémenté partout, votre nom par exemple ne peut pas ne pas figurer dans la version simple)
+\Detailed{1}
+
+% Marges
+\geometry{
+	hmargin=2.3cm,			% Marges gauche-droite
+	vmargin=2.5cm				% Marges haut-bas
+}
+
+% Largeur de la colonne de gauche
+\setlength{\colwidth}{2.5cm}
+
+% Espacements
+\smallskipamount=1mm	% Espace entre les différents entrées d'une section
+\medskipamount=3mm		% Espace entre les sections
+\bigskipamount=5mm		% Espace entre le chapeau et l'objectif ou la première section
+
+\begin{document}
+
+% Le CV commence ici
+%%%%%%%%%%%%%%%%%%%%
+
+% Chapeau (= informations personnelles)
+\begin{heading}
+	\Name{Antoine de ROQUEMAUREL}
+	\Address{23, avenue André Bousquairol\\
+		31400 Toulouse}
+	\Telephone{09~54~48~71~94}
+	\Email{antoinederoquemaurel@yahoo.fr}
+	\Nationality{française}
+	\DateOfBirth{08 novembre 1991}
+	\Age{19}
+	\Gender{M}	% M = Masculin, F = Féminin. Est utilisé pour savoir s'il faut écrire Né ou Née par exemple ;-)
+	\MaritalStatus{Célibataire}
+%	\Photo{Photo.jpg}	% Vous pouvez choisir de mettre une photo ou pas.
+	% sa dimension est sans importance, au final sa hauteur est fixée à 3cm 
+	% et son rapport hauteur/largeur est concervé.
+	% Meilleure est sa résolution, mieux c'est !
+\end{heading}
+
+% Objectif (optionnel)
+\begin{objective}
+trouver un stage de recherche long dans le domaine de l'électronique ou du traitement du signal.
+\end{objective}
+
+% Première section
+\begin{section}{Formation}
+	\begin{entry}
+		% Commence une nouvelle entrée
+		\Date{2007 -- 2008}
+		% Il est possible d'ajouter des liens hypertextes n'importe où.
+		\Place{\href{http://www.ens-cachan.fr/}{École Normale Supérieure de Cachan}}
+%		\Locality{Cachan}
+		\Country{France}
+		\Activity{Année de préparation à l'agrégation de physique appliquée}
+	\end{entry}
+	\begin{entry}
+		\Date{2006 -- 2007}
+		\Place{\href{http://www.ens-cachan.fr/}{École Normale Supérieure de Cachan}}
+%		\Locality{Cachan}
+		\Country{France}
+		\Activity{1\iere{} année de master de physique, parcours IST (Information, Systèmes, Technologie)-EEA et 2\ieme{} année de magistère en EEA}
+		\Course{Electronique de puissance des machines}
+		\Course{Commande numérique}
+		\Course{Electronique pour la transmission de l'information}
+		\Course{Informatique industrielle}
+		\Course{Signal et image}
+	\end{entry}
+	\begin{entry}
+		\Date{2005 -- 2006}
+		\Place{\href{http://www.ens-cachan.fr/}{École Normale Supérieure de Cachan}\newline
+		\href{http://www.u-psud.fr/}{Université Paris-Sud 11 Orsay}}
+%		\Locality{Cachan}
+		\Country{France}
+		\Activity{Intégration de l'ENS de Cachan et obtention du statut d'élève professeur dans le département EEA (Électro\-ni\-que, Électro\-tech\-ni\-que, Auto\-ma\-ti\-que)}
+		\Activity{3\ieme{} année de licence de physique, parcours IST-EEA à l'université Paris-Sud 11 et 1\iere{} année de magistère en EEA, commun avec l'ENS de Cachan}
+	\end{entry}
+	\begin{entry}[\detailedOnly]
+		\Date{juillet 2005}
+		\Event{Admis à l'École Centrale Paris et à l'École des Mines de Nancy}
+		\Event{Classé 36\ieme{} au Concours Commun Polytechnique (filière PSI)}
+	\end{entry}
+	\begin{entry}
+		\Date{2003 -- 2005}
+		\Place{\href{http://www.lycee-kleber.com.fr/}{Lycée Kléber}}
+		\Locality{Strasbourg}
+		\Country{France}
+		\Activity{Classes préparatoires aux Grandes Écoles}
+		\Activity[\detailedOnly]{1\iere{} année en MPSI (Mathématiques, Physique, Sciences de l'Ingénieur)}
+		\Activity[\detailedOnly]{2\ieme{} année en PSI* (Physique, Sciences de l'Ingénieur)}
+	\end{entry}
+	\begin{entry}[\detailedOnly]
+		\Date{2000 -- 2003}
+		\Place{\href{http://www.ac-nancy-metz.fr/Pres-etab/Nomine/}{Lycée Henri Nominé}}
+		\Locality{Sarreguemines}
+		\Country{France}
+		\Activity{Baccalauréat série S, option Sciences de l'Ingénieur, spécialité Mathématiques}
+		\Activity{Section européenne en langue allemande}
+	\end{entry}	
+\end{section}
+
+\begin{section}{Expérience professionnelle}
+	\begin{entry}
+		\Date{2007}
+		\Duration{6 mois}
+		\Place{\href{http://web.mit.edu/}{Massachusetts Institute of Technology}}
+		\Locality{Cambridge MA}
+		\Country{États-Unis}
+		\Activity{Stage de recherche dans l'Integrated Systems Group, supervisé par l'Assistant Professor Vladimir Stojanovic. Participation à un projet d'interconnexions optiques intégrées et réalisation d'un convertisseur analogique-numérique intégré très faible consommation}		
+		\Activity{Stage combiné avec un semestre de cours dans les matières de l'Electrical Engineering and Computer Science Department}
+		\Event[\detailedOnly]{Séjour au MIT récompensé par le Prix d'Action Internationale}
+		\Course{Microelectronic Devices and Circuits}
+		\Course{Complex Digital Systems Design}
+		\Course{CMOS Analog and Mixed-Signal Circuit Design}	
+	\end{entry}
+	\begin{entry}[\detailedOnly]
+		\Date{2006}
+		\Duration{20 heures}
+		\Place{\href{http://www.iut-cachan.fr/}{IUT de Cachan}}
+%		\Locality{Cachan}
+		\Country{France}
+		\Activity{Stage pédagogique en 1\iere{} année de DUT GEII (Génie Électrique et Informatique Industrielle)}
+	\end{entry}
+	\begin{entry}
+		\Date{2006}
+		\Duration{un mois}
+		\Place{smart France}
+		\Locality{Hambach}
+		\Country{France}
+		\Activity{Stage de découverte de l'entreprise dans le service Maintenance Process (maintenance chaine de montage du véhicule Smart Fortwo)}
+	\end{entry}	
+\end{section}
+
+\begin{section}{Diplômes et langues}
+	\singleEntry{$\cdot$ Licence de physique, parcours IST-EEA, obtenue en 2006, mention très bien}
+	\singleEntry[\detailedOnly]{$\cdot$ Certificat Informatique et Internet (\href{http://www2.c2i.education.fr/}{C2I}) niveau 1, obtenu en 2005}
+	\singleEntry{$\cdot$ Baccalauréat série S, obtenu en 2003, mention très bien}
+	\smallSkip
+	\begin{entry}
+		\Skill{Anglais~:}
+		\Activity{bon niveau, 905/990 au \href{http://www.fr.toeic.eu/index.php?id=2761}{TOEIC} en décembre 2006}
+		\Activity[\detailedOnly]{84/120 au \href{http://www.fr.toefl.eu/}{TOEFL iBT} en mars 2006}		
+	\end{entry}
+	\begin{entry}
+		\Skill{Allemand~:}
+		\Activity{bon niveau et échange de perfectionnement SAMALUX de 2 semaines, franco-allemand-luxembourgeois, au Luxembourg en mars 2002}
+	\end{entry}
+\end{section}
+
+\begin{section}{Loisirs et activités}
+	\singleEntry{$\cdot$ Trésorier du club de robotique et membre du bureau des élèves de l'ENS de Cachan}
+	\singleEntry{$\cdot$ Informatique : bonnes connaissances des langages de programmation C/C++ et Java, ainsi que des langages Web tels que PHP, XML, CSS et JavaScript, respect des standards du W3C}
+	\singleEntry{$\cdot$ Sports : badminton, natation}
+\end{section}
+
+% Le CV termine ici
+%%%%%%%%%%%%%%%%%%%
+
+\end{document}
