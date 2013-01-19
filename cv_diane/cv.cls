@@ -219,10 +219,8 @@
 				\flushright
 				\vspace{-100px}
 				\hspace{130px}
-%				\textbf{Objectif: Stagiaire assistante
-%					relations presses~~~~~~~~\hspace{130px}}
 \textbf{Objectif: Stagiaire assistante\newline
-	\hspace{-130px}relations presses~~~~~~~~~~~~~~}
+	\hspace{-130px}relations presse~~~~~~~~~~~~~~}
 		}{\CV@delayed}
 	\fi
 

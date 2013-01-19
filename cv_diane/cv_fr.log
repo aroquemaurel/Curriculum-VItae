@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2012.12.21)  18 JAN 2013 15:38
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2012.12.21)  18 JAN 2013 15:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -393,7 +393,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 204.
 Here is how much of TeX's memory you used:
  5971 strings out of 495059
  86069 string characters out of 3182029
- 180494 words of memory out of 3000000
+ 180493 words of memory out of 3000000
  9103 multiletter control sequences out of 15000+200000
  9535 words of font info for 22 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -404,7 +404,7 @@ e/aroquemaurel/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk> </home/ar
 oquemaurel/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/aroque
 maurel/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/aroquemaur
 el/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk>
-Output written on cv_fr.pdf (1 page, 1114153 bytes).
+Output written on cv_fr.pdf (1 page, 1114154 bytes).
 PDF statistics:
  274 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream
