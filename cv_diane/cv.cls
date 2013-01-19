@@ -219,8 +219,7 @@
 				\flushright
 				\vspace{-100px}
 				\hspace{130px}
-\textbf{Objectif: Stagiaire assistante\newline
-	\hspace{-130px}relations presse~~~~~~~~~~~~~~}
+\textbf{Objectif: Assistante chef de projet}
 		}{\CV@delayed}
 	\fi
 
