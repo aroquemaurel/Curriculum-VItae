@@ -218,8 +218,9 @@
 			\begin{minipage}{0.7\linewidth}
 				\flushright
 				\vspace{-100px}
-				\hspace{130px}
-\textbf{Objectif: Assistante chef de projet}
+				\hspace{100px}
+\textbf{Objectif: Assistante chef de projet\\\hspace{-250px}
+	événementiel~~~~~~~~~~~~}
 		}{\CV@delayed}
 	\fi
 
