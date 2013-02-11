@@ -219,7 +219,7 @@
 				\flushright
 				\vspace{-100px}
 				\hspace{-0px}
-\textbf{Objectif: Journaliste\hspace{50px}}
+\textbf{Objectif: Stagiaire service communication}
 		}{\CV@delayed}
 	\fi
 
