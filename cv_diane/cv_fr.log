@@ -1,12 +1,25 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.1.31)  11 FEB 2013 19:09
+=======
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.3.3)  8 MAR 2013 14:34
+>>>>>>> 017d69f06b5b3a707064559c0cdbd19b659ed2f6
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **cv_fr.tex
 (./cv_fr.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
-aded.
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, et
+hiopic, farsi, arabic, pinyin, croatian, bulgarian, ukrainian, russian, slovak,
+ czech, danish, dutch, usenglishmax, ukenglish, finnish, french, basque, ngerma
+n, german, swissgerman, ngerman-x-2012-05-30, german-x-2012-05-30, monogreek, g
+reek, ibycus, ancientgreek, hungarian, bengali, tamil, hindi, telugu, gujarati,
+ sanskrit, malayalam, kannada, assamese, marathi, oriya, panjabi, italian, lati
+n, latvian, lithuanian, mongolian, mongolianlmc, nynorsk, bokmal, indonesian, e
+speranto, coptic, welsh, irish, interlingua, serbian, serbianc, slovenian, friu
+lan, romansh, estonian, romanian, armenian, uppersorbian, turkish, afrikaans, i
+celandic, kurmanji, polish, portuguese, galician, catalan, spanish, swedish, th
+ai, loaded.
 (./cv.cls
 Document Class: cv 
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -391,13 +404,21 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 204.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 204.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  5971 strings out of 495059
  86069 string characters out of 3182030
  180478 words of memory out of 3000000
  9103 multiletter control sequences out of 15000+200000
+=======
+ 5971 strings out of 493485
+ 86069 string characters out of 3143527
+ 180718 words of memory out of 3000000
+ 9227 multiletter control sequences out of 15000+200000
+>>>>>>> 017d69f06b5b3a707064559c0cdbd19b659ed2f6
  9535 words of font info for 22 fonts, out of 3000000 for 9000
- 14 hyphenation exceptions out of 8191
+ 957 hyphenation exceptions out of 8191
  36i,6n,28p,242b,312s stack positions out of 5000i,500n,10000p,200000b,50000s
+<<<<<<< HEAD
  </home/aroquemaurel/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> <
 /home/aroquemaurel/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecxc1000.600pk> </hom
 e/aroquemaurel/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk> </home/ar
@@ -408,6 +429,18 @@ Output written on cv_fr.pdf (1 page, 97131 bytes).
 PDF statistics:
  277 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream
+=======
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/
+fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/f
+onts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm
+-super/sfxc1000.pfb>
+Output written on cv_fr.pdf (1 page, 1158123 bytes).
+PDF statistics:
+ 49 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
+>>>>>>> 017d69f06b5b3a707064559c0cdbd19b659ed2f6
  9 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
