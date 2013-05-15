@@ -30,12 +30,12 @@
 
 % Marges
 \geometry{
-	hmargin=1.4cm,			% Marges gauche-droite
+	hmargin=1.3cm,			% Marges gauche-droite
 	vmargin=1.35cm				% Marges haut-bas
 }
 
 % Largeur de la colonne de gauche
-\setlength{\colwidth}{2.4cm}
+\setlength{\colwidth}{2.6cm}
 
 % Espacements
 \smallskipamount=2mm	% Espace entre les différents entrées d'une section
@@ -53,19 +53,18 @@
 	\Address{23, avenue André Bousquairol\\
 		31~400 Toulouse}
 	\Telephone{06~84~33~52~93}
-	\Email{antoine.roquemaurel@gmail.com}		% Un lien hypertexte est automatiquement créé pour l'Email
+	\Emailadr{antoine.roquemaurel@gmail.com}		% Un lien hypertexte est automatiquement créé pour l'Email
 	\DateOfBirth{08 novembre 1991}
 %	\Age{19}
 	\Gender{M}	% M = Masculin, F = Féminin. Est utilisé pour savoir s'il faut écrire Né ou Née par exemple ;-)
 	\MaritalStatus{}
-	\Nationality{Française}
 	\Photo{Photo.jpg}	% Vous pouvez choisir de mettre une photo ou pas.
 	% sa dimension est sans importance, au final sa hauteur est fixée à 3cm 
 	% et son rapport hauteur/largeur est concervé.
 	% Meilleure est sa résolution, mieux c'est !
 \end{heading}
 	
-\titreCV{Développeur~stagiaire}
+\titreCV{}
 
 %---
 % Objectif (optionnel)
@@ -78,65 +77,81 @@
 \end{section}
 \begin{subsection}{Expériences professionnelles}
 	\begin{entry}
+		\Skill{1 mois}
+		\Date{Juillet 2012 ~~~~~~~~~~~~~~{\textnormal{\bsc{cdd}}}}
+		\Place{Participation au développement d'une application web}
+		\Locality{\newline\textnormal{Memobox/2G Technologies}, \textit{Montrabé}}
+		\Country{\textit{France}}
+		\Activity{\footnotesize Développement d'un module de communication avec des fournisseurs et refonte d'un catalogue permettant l'achat d'équipements mobiles} 
+%		\Course{\url{http://valeriederoquemaurel.com}}
+	\end{entry}
+	\begin{entry}
+		\Skill{11 semaines}
+		\Date{2012 ~~~~~~~~~~~~~~{\textnormal{\bsc{stage}}}}
+		\Place{refonte d'un système de traduction}
+		\Locality{\textnormal{Memobox/2G Technologies}, \textit{Montrabé}}
+		\Country{\textit{France}}
+		\Activity{\footnotesize Développement d'un nouveau système de traduction afin d'avoir une application web multi-lingue.
+		\newline J'ai ainsi développé un moteur de traduction en PHP Orienté Objet et une application permettant de traduire et de rechercher dans la base de
+		données contenant les traductions, ceci à l'aide de la technologie Adobe \bsc{air}}
+%		\Course{\url{http://valeriederoquemaurel.com}}
+	\end{entry}
+	\begin{entry}
 		\Skill{2 semaines}
-		\Date{Août~2009 ~~~~~~~~~~~~~~}
+		\Date{Août~2009} 
 		\Place{élaboration d'un site Internet}
 		\Locality{\textit{Yverdon-les-bains}}
 		\Country{\textit{Suisse}}
-		\Activity{Développement de toute l'architecture du site d'un artisan verrier, destiné à exposer ses pièces. Il est géré grâce à PHP, l'artisan peut donc l'administrer seul, comme il l'avait demandé}
-%		\Course{Il a la possibilité d'ajouter, d'éditer, de supprimer des photos, de changer leur ordre d'affichage, de modifier les contenus du site
-%			(CV, contact, biographie\ldots) d'ajouter de nouvelles catégories, d'ajouter des événements.\newline}
+		\Activity{\footnotesize Développement du site d'un artisan verrier, 
+		destiné à exposer ses pièces. Celui-ci est développé à
+		l'aide du framework PHP Symfony2. L'artisan peut 
+		administrer le site seul, comme il l'avait demandé}
 		\Course{\url{http://valeriederoquemaurel.com}}
 	\end{entry}
 \end{subsection}
-\begin{subsection}{projets}
+\vspace{-10px}
+\begin{subsection}{projets personnels}
 	\begin{entry}
-		\Date{2012} 
-		\Skill{2 mois et demi}
-		\Place{Développement d'un logiciel de gestion des examens} 
+		\Date{Décembre 2010, 2011, et 2012} 
+		\Place{participation à la nuit de l'informatique}
 		\Locality{\textit{Toulouse}}
 		\Country{\textit{France}}
-		\Course{Développé avec la méthode Scrum en équipe de 6.\newline} 
-		\Course{Programmé en C++ en utilisant la bibliothèque \texttt{Qt}.}
+		\Activity{\footnotesize Concours national d'informatique réunissant des étudiants de toute la France. Le concept est de développer une application web en une nuit}
+		\Course{\url{http://nuitdelinfo.com}}
 	\end{entry}
 	\begin{entry}
-		\Date{2011} 
-		\Skill{4 mois}
-		\Place{Développement d'une bibliothèque d'objets graphique \bsc{UML}}
-		\Locality{\textit{Toulouse}}
-		\Country{\textit{France}}
-		\Course{Développement par incrément en équipe de 4.\newline}
-		 \Course{Programmé en Java en se servant de la bibliothèque \texttt{JGraphX}.}
-	\end{entry}
-	\begin{entry}
-		\Date{2~\mbox{décembre} 2010 et 2011} 
-		\Place{participation à la nuit de l'informatique 2010 et 2011}
-		\Locality{\textit{Toulouse}}
-		\Country{\textit{France}}
-		\Activity{Concours national d'informatique réunissant des étudiants de toute la France. Le concept est de développer une application web en une nuit}
-		\Course{\url{http://nuitdelinfo.com/nuitinfo10/}\newline}
-		\Course{\url{http://nuitdelinfo.com/nuitinfo11/}}
+		\Date{2006 -- 2009} 
+		\Place{développement d'un site Internet}
+		\Activity{\footnotesize Dans le cadre d'un loisir, développement, maintenance et administration d'un site Internet.
+		Celui-ci est développé en PHP en utilisant les principes du pattern MVC afin d'avoir une architecture propre, claire et stable}
+		\Course{\url{http://bleach.joohoo.fr}}
 	\end{entry}
 \end{subsection}
-
+\vspace{-10px}
 \begin{section}{formations}
-\begin{entry} \end{entry}
 	\begin{entry}
-		\Date{2011 -- 2012}
-		% Il est possible d'ajouter des liens hypertextes n'importe où. \href
-		\Place{2ème année de Diplôme Universitaire de Technologies informatique}
-		\Locality{\newline Institut Universitaire de Technologies - Université Toulouse III}
+	\end{entry}
+	\begin{entry}
+		\Date{2012 -- 2013}
+		\Place{2ème année de Licence Informatique}
+		\Locality{Université Toulouse III -- Paul Sabatier}
 		\Country{France}
-%		\Activity{}
+	\end{entry}
+	\begin{entry}
+		\Date{2010 -- 2012}
+		\Place{Diplôme Universitaire de Technologie informatique}
+		\Locality{\newline Institut Universitaire de
+		Technologies 'A' Toulouse -- Université Toulouse III}
+		\Country{France}
 	\end{entry}
 
 	\begin{entry}
-		\Date{2010}
-		\Place{baccalauréat Sciences et Techniques de l'Industriel Génie Électro\-technique}
+		\Date{2008 -- 2010}
+		\Place{baccalauréat Sciences et Techniques de l'Industriel Génie \mbox{Électrotechnique}}
 		\Locality{Lycée Saint Joseph Toulouse}
 		\Country{France}
 %		\Activity{}
-		\Mention{Assez bien}	
+		\Mention{assez bien}	
 %		\Course{} %puce en forme de triangle
 	\end{entry}
 \end{section}
@@ -150,23 +165,19 @@
 	\end{entrytech}
 	\begin{entrytech}
 		\Competence{Web}
-		\Activity{XHTML, CSS, PHP}
+		\Activity{XHTML, CSS, PHP, JavaScript}
 	\end{entrytech}
-	\begin{entrytech}
-		\Competence{Versionnement}
-		\Activity{Git, Subversion}
-	\end{entrytech}  
+%	\begin{entrytech}
+%		\Competence{Frameworks}
+%		\Activity{Symfony2, Mootools, Adobe AIR}
+%	\end{entrytech}  
+%	\begin{entrytech}
+%		\Competence{Versionnement}
+%		\Activity{Git, Subversion}
+%	\end{entrytech}  
 	\begin{entrytech}
 		\Competence{SGBD}
 		\Activity{MySQL, Oracle}
-	\end{entrytech}  
-	\begin{entrytech}
-		\Competence{IDE}
-		\Activity{Netbeans, Eclipse, QtCreator}
-	\end{entrytech}  
-	\begin{entrytech}
-		\Competence{Méthode}
-		\Activity{Scrum, Merise}
 	\end{entrytech}  
 	\begin{entrytech}
 		\Competence{Système}
@@ -174,13 +185,11 @@
 	\end{entrytech}  
 	\begin{entrytech}
 		\Competence{Bureautique}
-		\Activity{LaTeX, Suite OpenOffice, Suite Microsoft Office}
-	\end{entrytech}  
-	\begin{entrytech}
-		\Competence{Certification}
-		\Activity{Certificat Informatique et Internet}
+		\Activity{LaTeX, Suite Microsoft Office, Suite
+		OpenOffice}
 	\end{entrytech}  
 \end{subsection}
+\vspace{-8px}
 \begin{subsection}{compétences en langue}
 	\begin{entrytech}
 		\Competence{Anglais}
@@ -192,7 +201,7 @@
 \begin{entry}\end{entry}
 	\begin{entrytech}
 		\Competence{Associatif}
-		\Activity{Animateur et trésorier pour les Scouts et Guides de France depuis 2009.\newline En formation de Brevet d'Aptitude à la Fonction d'Animateur}
+		\Activity{Animateur bénévole Scouts et Guides de France. Enfants de 6 à 8 ans (2009 -- 2012)}
 	\end{entrytech}  
 	\begin{entrytech}
 		\Competence{Culture}
