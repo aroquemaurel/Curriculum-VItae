@@ -218,19 +218,8 @@
 			\begin{minipage}{0.7\linewidth}
 				\flushright
 				\vspace{-100px}
-<<<<<<< HEAD
-				\hspace{-40px}
-\textbf{Objectif: Stagiaire transition\\
-	énergétique~~~~~~~~~~~}
-=======
-<<<<<<< HEAD
 				\hspace{-0px}
 \textbf{Objectif: Assistante chef de projet\\ événementiel\hspace{50px}}
-=======
-				\hspace{130px}
-%\textbf{Objectif: Assistante chef de projet}
->>>>>>> 017d69f06b5b3a707064559c0cdbd19b659ed2f6
->>>>>>> 7cfcacc001e17e4def1720a6ba197b26ba4af69c
 		}{\CV@delayed}
 	\fi
 

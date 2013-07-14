@@ -4,6 +4,7 @@
 \ProcessOptions
 \LoadClass{article}
 \RequirePackage{ltxtable}
+\RequirePackage{marvosym}
 \RequirePackage{ifthen}
 \RequirePackage{color}
 \RequirePackage[
@@ -92,7 +93,7 @@
 \def\@@name{}
 \def\@@address{}
 \def\@@telephone{}
-\def\@@email{}
+\def\@@emailadr{}
 \def\@@nationality{}
 \def\@@dateofbirth{}
 \def\@@age{}
@@ -104,7 +105,7 @@
 	\CV@init{name}
 	\CV@init{address}	
 	\CV@init{telephone}
-	\CV@init{email}
+	\CV@init{emailadr}
 	\CV@init{nationality}
 	\CV@init{dateofbirth}
 	\CV@init{age}
@@ -115,7 +116,7 @@
 	\newcommand{\Name}[1]{\global\def\@@name{##1}}
 	\newcommand{\Address}[1]{\global\def\@@address{##1}}	
 	\newcommand{\Telephone}[1]{\global\def\@@telephone{##1}}
-	\newcommand{\Email}[1]{\global\def\@@email{##1}}
+	\newcommand{\Emailadr}[1]{\global\def\@@emailadr{##1}}
 	\newcommand{\Nationality}[1]{\global\def\@@nationality{##1}}
 	\newcommand{\DateOfBirth}[1]{\global\def\@@dateofbirth{##1}}
 	\newcommand{\Age}[1]{\global\def\@@age{##1}}
@@ -142,19 +143,21 @@
 
 	\ifx\@@telephone\empty\else
 		\ifthenelse{\equal{\@@language}{francais}}{
-			\CV@AppendItem{Tél.~: \@@telephone\newline}{\CV@delayed}
+			\CV@AppendItem{\Telefon~Tél.~: \@@telephone\newline}{\CV@delayed}
 		}{}
 		\ifthenelse{\equal{\@@language}{english}}{
 			\CV@AppendItem{Phone: \@@telephone\newline}{\CV@delayed}
 		}{}
 	\fi
 
-	\ifx\@@email\empty\else
+	\ifx\@@emailadr\empty\else
 		\ifthenelse{\equal{\@@language}{francais}}{
-			\CV@AppendItem{Email~: \href{mailto:\@@email}{\@@email}}{\CV@delayed}
+			\CV@AppendItem{\Letter~Email~:
+				\href{mailto:\@@emailadr}{\@@emailadr}}{\CV@delayed}
 		}{}
 		\ifthenelse{\equal{\@@language}{english}}{
-			\CV@AppendItem{Email: \href{mailto:\@@email}{\@@email}}{\CV@delayed}
+			\CV@AppendItem{Email:
+				\href{mailto:\@@emailadr}{\@@emailadr}}{\CV@delayed}
 		}{}
 	\fi
 
