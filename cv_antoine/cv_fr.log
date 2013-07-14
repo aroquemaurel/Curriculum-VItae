@@ -1,12 +1,21 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.5.15)  15 MAY 2013 23:17
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.5.14)  16 MAY 2013 00:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **cv_fr.tex
 (./cv_fr.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
-aded.
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, et
+hiopic, farsi, arabic, pinyin, croatian, bulgarian, ukrainian, russian, slovak,
+ czech, danish, dutch, usenglishmax, ukenglish, finnish, french, basque, ngerma
+n, german, swissgerman, ngerman-x-2012-05-30, german-x-2012-05-30, monogreek, g
+reek, ibycus, ancientgreek, hungarian, bengali, tamil, hindi, telugu, gujarati,
+ sanskrit, malayalam, kannada, assamese, marathi, oriya, panjabi, italian, lati
+n, latvian, lithuanian, mongolian, mongolianlmc, nynorsk, bokmal, indonesian, e
+speranto, coptic, welsh, irish, interlingua, serbian, serbianc, slovenian, friu
+lan, romansh, estonian, romanian, armenian, uppersorbian, turkish, afrikaans, i
+celandic, kurmanji, polish, portuguese, galician, catalan, spanish, swedish, th
+ai, loaded.
 (./cv.cls
 Document Class: cv 
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -249,7 +258,7 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 \smedskip=\skip55
 \ssmallskip=\skip56
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+(/var/lib/texmf/tex/generic/babel/babel.sty
 Package: babel 2008/07/08 v3.8m The Babel package
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/frenchb.ldf
@@ -260,12 +269,6 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count107
 \U@D=\dimen124
 )
-
-Package babel Warning: No hyphenation patterns were loaded for
-(babel)                the language `French'
-(babel)                I will use the patterns loaded for \language=0 instead.
-
-\l@french = a dialect from \language0
 Package babel Info: Making : an active character on input line 234.
 Package babel Info: Making ; an active character on input line 235.
 Package babel Info: Making ! an active character on input line 236.
@@ -274,6 +277,7 @@ Package babel Info: Making ? an active character on input line 237.
 \std@mcc=\count108
 \dec@mcc=\count109
 \parindentFFN=\dimen126
+
 *************************************
 * Local config file frenchb.cfg used
 *
@@ -415,7 +419,7 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 109.
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 Underfull \hbox (badness 10000) in paragraph at lines 155--155
-[]|\T1/cmr/bx/sc/10 baccalauréat Sci-ences et Tech-niques de l'In-dus-triel Gén
+[]|\T1/cmr/bx/sc/10 baccalauréat Sciences et Tech-niques de l'In-dus-triel Gé-n
 ie
  []
 
@@ -451,30 +455,28 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 214.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 214.
  ) 
 Here is how much of TeX's memory you used:
- 6971 strings out of 495059
- 98893 string characters out of 3182030
- 201374 words of memory out of 3000000
- 10065 multiletter control sequences out of 15000+200000
+ 6970 strings out of 493485
+ 98869 string characters out of 3143526
+ 202673 words of memory out of 3000000
+ 10187 multiletter control sequences out of 15000+200000
  15680 words of font info for 35 fonts, out of 3000000 for 9000
- 14 hyphenation exceptions out of 8191
+ 957 hyphenation exceptions out of 8191
  36i,6n,28p,213b,403s stack positions out of 5000i,500n,10000p,200000b,50000s
- </home/aroquemaurel/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0900.600pk> <
-/home/aroquemaurel/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt0800.600pk> </hom
-e/aroquemaurel/.texmf-var/fonts/pk/ljfour/jknappen/ec/eccc0800.600pk> </home/ar
-oquemaurel/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/aroque
-maurel/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> </home/aroquemaur
-el/.texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1000.600pk> </home/aroquemaurel/.
-texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/aroquemaurel/.texm
-f-var/fonts/pk/ljfour/jknappen/ec/ecxc1000.600pk> </home/aroquemaurel/.texmf-va
-r/fonts/pk/ljfour/jknappen/ec/eccc1440.600pk> </home/aroquemaurel/.texmf-var/fo
-nts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/aroquemaurel/.texmf-var/fonts/
-pk/ljfour/jknappen/ec/ecbx1200.600pk></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/marvosym/marvosym.pfb>
-Output written on cv_fr.pdf (1 page, 138701 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/share/texmf/fonts/type1/pu
+blic/cm-super/sfbx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx10
+00.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/t
+exmf/fonts/type1/public/cm-super/sfcc0800.pfb></usr/share/texmf/fonts/type1/pub
+lic/cm-super/sfcc1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc144
+0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/publ
+ic/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0800
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1000.pfb>
+Output written on cv_fr.pdf (1 page, 263800 bytes).
 PDF statistics:
- 391 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
+ 81 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
  10 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
