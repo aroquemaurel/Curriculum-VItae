@@ -97,6 +97,7 @@
 \def\@@nationality{}
 \def\@@dateofbirth{}
 \def\@@age{}
+\def\@@linkedin{}
 \def\@@gender{}
 \def\@@maritalstatus{}
 \def\@@drivinglicense{}
@@ -120,6 +121,7 @@
 	\newcommand{\Nationality}[1]{\global\def\@@nationality{##1}}
 	\newcommand{\DateOfBirth}[1]{\global\def\@@dateofbirth{##1}}
 	\newcommand{\Age}[1]{\global\def\@@age{##1}}
+	\newcommand{\Linkedin}[1]{\global\def\@@linkedin{##1}}
 	\newcommand{\Gender}[1]{\global\def\@@gender{##1}}
 	\newcommand{\MaritalStatus}[1]{\global\def\@@maritalstatus{##1}}
 	\newcommand{\Mobility}[1]{\global\def\@@mobility{##1}}
@@ -166,6 +168,9 @@
 %		\begin{minipage}{0.3\linewidth}
 %			\vspace{\baselineskip}
 	}{\CV@delayed}
+	\ifx\@@linkedin\empty\else
+	\CV@AppendItem{\newline\includegraphics[width=8px]{linkedin.png}~\url{http://www.linkedin.com/in/\@@linkedin}}{\CV@delayed}
+	\fi
 
 	\ifx\@@dateofbirth\empty\else
 		\ifthenelse{\equal{\@@language}{francais}}{
@@ -186,6 +191,8 @@
 	\ifx\@@age\empty\else
 		\CV@AppendItem{\@@age{} ans}{\CV@delayed}
 	\fi
+
+
 
 	\ifx\@@nationality\empty\else
 		\ifthenelse{\equal{\@@language}{francais}}{
@@ -391,7 +398,7 @@
 		\fi
 	
 		\ifx\@@skill\empty\else
-			\CV@AppendItem{\vspace{-20px}\begin{center}\@@skill\end{center}}{\CV@delayed}
+			\CV@AppendItem{\vspace{-18px}\scriptsize\begin{center}\@@skill\end{center}}{\CV@delayed}
 		\fi
 		\CV@AppendItem{&}{\CV@delayed}
 	
