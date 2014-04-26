@@ -4,6 +4,7 @@
 \ProcessOptions
 \LoadClass{article}
 \RequirePackage{ltxtable}
+\RequirePackage{marvosym}
 \RequirePackage{ifthen}
 \RequirePackage{color}
 \RequirePackage[
@@ -21,7 +22,7 @@
 \RequirePackage{geometry}
 \RequirePackage{graphicx}
 
-\definecolor{orange1}{rgb}{1,0.21,0}
+\definecolor{orange1}{rgb}{0.68,0.38,0.066}
 \definecolor{vert}{rgb}{0.1,0.6,0.1}
 
 \pagestyle{empty}
@@ -92,7 +93,7 @@
 \def\@@name{}
 \def\@@address{}
 \def\@@telephone{}
-\def\@@email{}
+\def\@@emailadr{}
 \def\@@nationality{}
 \def\@@dateofbirth{}
 \def\@@age{}
@@ -104,7 +105,7 @@
 	\CV@init{name}
 	\CV@init{address}	
 	\CV@init{telephone}
-	\CV@init{email}
+	\CV@init{emailadr}
 	\CV@init{nationality}
 	\CV@init{dateofbirth}
 	\CV@init{age}
@@ -116,7 +117,7 @@
 	\newcommand{\Name}[1]{\global\def\@@name{##1}}
 	\newcommand{\Address}[1]{\global\def\@@address{##1}}	
 	\newcommand{\Telephone}[1]{\global\def\@@telephone{##1}}
-	\newcommand{\Email}[1]{\global\def\@@email{##1}}
+	\newcommand{\Emailadr}[1]{\global\def\@@emailadr{##1}}
 	\newcommand{\Nationality}[1]{\global\def\@@nationality{##1}}
 	\newcommand{\DateOfBirth}[1]{\global\def\@@dateofbirth{##1}}
 	\newcommand{\Age}[1]{\global\def\@@age{##1}}
@@ -144,19 +145,19 @@
 
 	\ifx\@@telephone\empty\else
 		\ifthenelse{\equal{\@@language}{francais}}{
-			\CV@AppendItem{Tél.~: \@@telephone\newline}{\CV@delayed}
+			\CV@AppendItem{\Telefon~Tél.~: \@@telephone\newline}{\CV@delayed}
 		}{}
 		\ifthenelse{\equal{\@@language}{english}}{
 			\CV@AppendItem{Phone: \@@telephone\newline}{\CV@delayed}
 		}{}
 	\fi
 
-	\ifx\@@email\empty\else
+	\ifx\@@emailadr\empty\else
 		\ifthenelse{\equal{\@@language}{francais}}{
-			\CV@AppendItem{Email~: \href{mailto:\@@email}{\@@email}}{\CV@delayed}
+			\CV@AppendItem{\Letter~Email~: \href{mailto:\@@emailadr}{\@@emailadr}}{\CV@delayed}
 		}{}
 		\ifthenelse{\equal{\@@language}{english}}{
-			\CV@AppendItem{Email: \href{mailto:\@@email}{\@@email}}{\CV@delayed}
+			\CV@AppendItem{Email: \href{mailto:\@@emailadr}{\@@emailadr}}{\CV@delayed}
 		}{}
 	\fi
 
@@ -216,21 +217,10 @@
 		\CV@AppendItem{
 			\end{minipage}
 			\begin{minipage}{0.7\linewidth}
-				\flushright
+				\flushleft
 				\vspace{-100px}
-<<<<<<< HEAD
-				\hspace{-40px}
-\textbf{Objectif: Stagiaire transition\\
-	énergétique~~~~~~~~~~~}
-=======
-<<<<<<< HEAD
-				\hspace{-0px}
-\textbf{Objectif: Assistante chef de projet\\ événementiel\hspace{50px}}
-=======
-				\hspace{130px}
-%\textbf{Objectif: Assistante chef de projet}
->>>>>>> 017d69f06b5b3a707064559c0cdbd19b659ed2f6
->>>>>>> 7cfcacc001e17e4def1720a6ba197b26ba4af69c
+				\hspace{200px}
+				\textbf{Objectif: }
 		}{\CV@delayed}
 	\fi
 

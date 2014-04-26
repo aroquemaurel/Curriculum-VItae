@@ -1,11 +1,18 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.6.27)  25 SEP 2011 22:27
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.3.1)  2 MAR 2014 13:17
 entering extended mode
+ restricted \write18 enabled.
  %&-line parsing enabled.
-**lvtx.tex
-(/usr/share/texmf-texlive/tex/latex/tools/x.tex
-LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, french, basque, loaded.
+**my_cv_bis.tex
+(/usr/share/texlive/texmf-dist/tex/latex/tools/x.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, fa
+rsi, arabic, pinyin, slovak, czech, dutch, french, basque, ngerman, german, swi
+ssgerman, ngerman-x-2012-05-30, german-x-2012-05-30, hungarian, bengali, tamil,
+ hindi, telugu, gujarati, sanskrit, malayalam, kannada, assamese, marathi, oriy
+a, panjabi, italian, latvian, indonesian, esperanto, coptic, welsh, irish, inte
+rlingua, serbian, serbianc, slovenian, friulan, romansh, estonian, romanian, ar
+menian, uppersorbian, turkish, afrikaans, icelandic, kurmanji, polish, thai, lo
+aded.
 
 ! .
 l.34   \batchmode \errmessage{}
@@ -17,13 +24,13 @@ and deduce the truth by order and method.
 
  ) 
 Here is how much of TeX's memory you used:
- 9 strings out of 495028
- 236 string characters out of 1181229
- 45133 words of memory out of 3000000
- 3291 multiletter control sequences out of 15000+50000
+ 7 strings out of 494232
+ 254 string characters out of 3160025
+ 46632 words of memory out of 3000000
+ 3362 multiletter control sequences out of 15000+200000
  3640 words of font info for 14 fonts, out of 3000000 for 9000
- 28 hyphenation exceptions out of 8191
- 5i,0n,1p,88b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 462 hyphenation exceptions out of 8191
+ 5i,0n,1p,93b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 No pages of output.
 PDF statistics:

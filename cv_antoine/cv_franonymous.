@@ -11,8 +11,8 @@
 
 % Méta-données PDF
 \hypersetup{
-	pdfauthor   = {Antoine Satenske},		% C'est vous qui avez fait le PDF
-	pdftitle    = {Curriculum Vitae de Antoine Satenske},
+	pdfauthor   = {Antoine de Roquemaurel},		% C'est vous qui avez fait le PDF
+	pdftitle    = {Curriculum Vitae de Antoine de Roquemaurel},
 %	pdfsubject  = {},
 %	pdfkeywords = {},
 	pdfcreator  = {PDFLaTeX},						% Vous l'avez fait avec LateX !
@@ -48,17 +48,17 @@
 
 % Chapeau (= informations personnelles)
 \begin{heading}
-	\Name{\textbf{Antoine Satenske}}
-	\Address{7, impasse XXX\\
+	\Name{\textbf{Antoine de Roquemaurel}}
+	\Address{7, impasse André Lartigue\\Bât F2 -- Appt 41\\
 		31~500 Toulouse}
-	\Telephone{01~02~03~04~05}
-	\Emailadr{xxx.yyy@zzz.com}		% Un lien hypertexte est automatiquement créé pour l'Email
+	\Telephone{06~84~33~52~93}
+	\Emailadr{antoine.roquemaurel@gmail.com}		% Un lien hypertexte est automatiquement créé pour l'Email
 	\DateOfBirth{08 novembre 1991}
 %	\Age{19}
-	\Linkedin{satenske}
+	\Linkedin{antoinederoquemaurel}
 	\Gender{M}	% M = Masculin, F = Féminin. Est utilisé pour savoir s'il faut écrire Né ou Née par exemple ;-)
 	\MaritalStatus{}
-	\Photo{avatar.png}	% Vous pouvez choisir de mettre une photo ou pas.
+	\Photo{Photo.jpg}	% Vous pouvez choisir de mettre une photo ou pas.
 	% sa dimension est sans importance, au final sa hauteur est fixée à 3cm 
 	% et son rapport hauteur/largeur est concervé.
 	% Meilleure est sa résolution, mieux c'est !

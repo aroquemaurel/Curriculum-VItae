@@ -121,19 +121,27 @@
 % Première section
 \begin{section}{Formations}
 	\begin{entry}
-		\Date{2010 -- 2015 (espéré)}
-		\Place{Sciences Po Toulouse, étudiante en Parcours << Risques, science, environnement et santé >>}
+		\Date{2013 -- 2014}
+		\Place{Parcours << Risques, science, environnement et santé >>, Sciences-Po Toulouse}
 		\Locality{Toulouse}
 		\Country{\textit{France}}
-		\Activity{\footnotesize 
-		Formation pluridisciplinaire en cinq ans qui délivre le grade Master et se caractérise par son ouverture à l'international - mobilité en 3e année
-		}
 	\end{entry}
 	\begin{entry}
 		\Date{2012 -- 2013}
 		\Place{Erasmus à l'Université de Grenade}
 		\Locality{Semestre obtenu avec mention Très-Bien, \textit{Grenade}}
 		\Country{\textit{Espagne}}
+	\end{entry}
+	\begin{entry}
+		% Commence une nouvelle entrée
+		\Date{2010 -- 2012}
+		% Il est possible d'ajouter des liens hypertextes n'importe où.
+		\Place{Sciences Po Toulouse, étudiante premier cycle}
+%		\Locality{Institut Universitaire de Technologies - Université Toulouse III}
+%		\Country{France}
+		\Locality{\textit{Toulouse}}
+		\Country{\textit{France}}
+%		\Activity{Année de préparation à l'agrégation de physique appliquée}
 	\end{entry}
 	\begin{entry}
 		\Date{2009 -- 2010}
@@ -159,11 +167,11 @@
 \begin{subsection}{Compétences en langues}
 	\begin{entrytech}
 		\Date{Anglais~:}
-		\Activity{Bon niveau (estimé B2). Voyages aux États-Unis et à Londres, séjour linguistique de deux semaines dans une famille}
+		\Activity{Bon niveau (estimé B2). Voyage aux États-Unis et à Londres, séjour linguistique de deux semaines dans une famille}
 	\end{entrytech}  
 	\begin{entrytech}
 		\Date{Espagnol~:}
-		\Activity{Bon niveau (estimé C1). Erasmus de 6 mois à Grenade. Voyages en Espagne, séjour linguistique de deux semaines dans une famille}
+		\Activity{Bon niveau (estimé C1). Erasmus de 6 mois à Grenade. Voyage en Espagne, séjour linguistique de deux semaines dans une famille}
 	\end{entrytech}  
 \end{subsection}
 
