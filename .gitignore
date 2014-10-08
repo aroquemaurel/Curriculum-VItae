@@ -5,4 +5,5 @@ cv/*.tcp
 cv/*.log
 cv/*.blg
 cv/*.bbl
-
+cv/.*.swp
+cv/.*.swo
