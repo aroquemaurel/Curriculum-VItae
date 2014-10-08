@@ -1,221 +1,102 @@
-  % Taille de la police du CV et le format
-\documentclass[10pt,a4paper]{cv}
-
-% Un certain nombre de packages sont déjà inclus par la classe CV
-\usepackage[francais]{babel} 
-\usepackage[latin1]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{color}
-% Langue
-\Language{francais}
-
-% Méta-données PDF
-\hypersetup{
-	pdfauthor   = {Antoine de Roquemaurel},		% C'est vous qui avez fait le PDF
-	pdftitle    = {Curriculum Vitae de Antoine de Roquemaurel},
-%	pdfsubject  = {},
-%	pdfkeywords = {},
-	pdfcreator  = {PDFLaTeX},						% Vous l'avez fait avec LateX !
-	pdfproducer = {PDFLaTeX}
-}
-
-% Couleur des liens hypertextes, si vous voulez les faire ressortir
-\definecolor{urlcolor}{rgb}{0, 0, 0.5}
-
-% Version (0 = simple, devrait rentrer sur une page et 1 = détaillé)
-% Par défaut, tout est inclus dans la version simple sauf les cours (\Course{}).
-% Pour n'inclure un élément que dans la version détaillée, ajouter l'argument [\detailedOnly]
-% (cela n'est toutefois pas implémenté partout, votre nom par exemple ne peut pas ne pas figurer dans la version simple)
-\Detailed{1}
-
-% Marges
-\geometry{
-	hmargin=1.3cm,			% Marges gauche-droite
-	vmargin=1.30cm				% Marges haut-bas
-}
-
-% Largeur de la colonne de gauche
-\setlength{\colwidth}{3.39cm}
-
-% Espacements
-\smallskipamount=2mm	% Espace entre les différents entrées d'une section
-\medskipamount=3mm		% Espace entre les sections
-\bigskipamount=5mm		% Espace entre le chapeau et l'objectif ou la première section
+\documentclass{my_cv_bis}
+ 
 \begin{document}
+\heading{Antoine}{de Roquemaurel}{DÃ©veloppeur}
+ {
+	\contact{
+		7 impasse AndrÃ© Lartigue\\
+		BÃ¢t. F2, Appt 41\\
+		31500 Toulouse
+	}{
+		\mobile{06~84~33~52~93}\\
+		\email{\texttt{antoine.roquemaurel@gmail.com}}\\
+		\texttt{\hspace{-18px}www.linkedin.com/in/antoinederoquemaurel}
+	}{	
+		NÃ© le 08/11/1991\\
+		Permis B \\
+		~
+	}
+}{avatar}
 
-% Le CV commence ici
-%%%%%%%%%%%%%%%%%%%%
+%	\section{RÃ©fÃ©rences}
+%		\reference{Guillaume}{Cabanac}{Enseignant--Chercheur}{IRIT}{Toulouse}{05.61.55.72.73}
+%
+%		\reference{James}{Ashton}{Responsable du systÃ¨me d'information}{IEP Toulouse}{Toulouse}{05.61.11.04.58}
 
-% Chapeau (= informations personnelles)
-\begin{heading}
-	\Name{\textbf{Antoine de Roquemaurel}}
-	\Address{7, impasse André Lartigue\\Bât F2 -- Appt 41\\
-		31~500 Toulouse}
-	\Telephone{06~84~33~52~93}
-	\Emailadr{antoine.roquemaurel@gmail.com}		% Un lien hypertexte est automatiquement créé pour l'Email
-	\DateOfBirth{08 novembre 1991}
-%	\Age{19}
-	\Linkedin{antoinederoquemaurel}
-	\Gender{M}	% M = Masculin, F = Féminin. Est utilisé pour savoir s'il faut écrire Né ou Née par exemple ;-)
-	\MaritalStatus{}
-	\Photo{Photo.jpg}	% Vous pouvez choisir de mettre une photo ou pas.
-	% sa dimension est sans importance, au final sa hauteur est fixée à 3cm 
-	% et son rapport hauteur/largeur est concervé.
-	% Meilleure est sa résolution, mieux c'est !
-\end{heading}
+
+ 
+ \vspace{-2mm}
+\section{ExpÃ©riences professionnelles}
+\cventry{2013~--~Aujourd'hui\\{\vspace{0.5mm}\small\color{gray} Freelance}\\\small\color{gray} C++, Qt5}
+	{Conception dâ€™une application de gestion de bilans}
+	{Autoentrepreneur}{Toulouse}
+	{
+	DÃ©veloppement d'une application de rÃ©alisation de bilans lombaires Ã  destination des kinÃ©sithÃ©rapeutes 
+	de l'Association FranÃ§aise McKenzie. A terme l'application permettra la rÃ©alisation de plusieurs types de bilans ainsi que
+	l'acquisition et l'interprÃ©tation des donnÃ©es.
+	}
+	{\course{Site web de l'association : \url{http://www.afmck.com}}}
+
+	\cventry{Juillet 2012\\{\vspace{0.5mm}\small\color{gray} CDD}\\\small\color{gray} PHP5, Mootools}
+	{ Participation au dÃ©veloppement d'une application web}
+	{Memobox / 2G Technologies}{Toulouse}
+	{DÃ©veloppement d'un nouveau systÃ¨me de traduction basÃ© sur un moteur de traduction PHP et un client lourd
+	permettant la traduction et la recherche de texte dans une base de donnÃ©es.  } {}
+
+	\cventry{Avril~--~Juin 2012\\{\vspace{0.5mm}\small\color{gray} Stage}\\\small\color{gray} PHP5, Adobe AIR}
+	{ Refonte dâ€™un systÃ¨me de traduction }
+	{Memobox / 2G Technologies}{Toulouse}
+	{DÃ©veloppement d'un nouveau systÃ¨me de traduction basÃ© sur un moteur de traduction PHP et un client lourd
+	permettant la traduction et la recherche de texte dans une base de donnÃ©es.  } {}
+
+	\cventry{2009~--~Aujourd'hui\\{\vspace{0.5mm}\small\color{gray}~ PHP5, Symfony2}}
+	{Ã‰laboration dâ€™un site Internet}
+	{Yverdon-les-bains}{Suisse}
+	{DÃ©veloppement du site dâ€™un artisan verrier, destinÃ© Ã  exposer ses piÃ¨ces. L'artisan peut administrer le site
+	seul: ajouter de nouvelles photo, ajouter des Ã©vÃ©nements, changer le contenu du site,\ldots}
+	{}
+
+	\subsection{Projets personnels}
+	\cventry{DÃ©cembre 2010, 2011 et 2012\\{\vspace{0.5mm}\small\color{gray}~ }}
+	{Participation Ã  la nuit de l'informatique}
+	{UniversitÃ© Toulouse III -- Paul Sabatier}{Toulouse}
+	{ Concours national dâ€™informatique rÃ©unissant des Ã©tudiants de toute la France. Le concept est de dÃ©velopper une application web en une nuit.} 
+	{\course{\url{http://nuitdelinfo.com}}}
+	\vspace{-20px}
+\section{Formation}
+	\cventry{2012~--~2014}
+	{Licence Informatique}
+	{UniversitÃ© Toulouse III -- Paul Sabatier}{Toulouse}{Parcours IngÃ©nierie des SystÃ¨mes Informatiques}{}
 	
-\titreCV{}
+	\cventry{2010~--~2012}
+	{DUT Informatique}
+	{IUT 'A' Paul Sabatier}{Toulouse}
+	{Options MÃ©thodes Agiles, Interface graphique en Java, CrÃ©ation d'entreprise}
+	{}
+	
+	\cventry{2010}
+	{BaccalaurÃ©at Sciences et Techniques de l'Industriel}
+	{LycÃ©e Saint Joseph}{Toulouse}
+	{GÃ©nie Ã‰lectrotechnique}{}
+	\vspace{-20px}
+\section{CompÃ©tences}
+%	\begin{minipage}[t]{0.45\textwidth}
+		\subsection{Informatique}
+		\cvline{\textbf{Programmation}}{C, C++, Java, PHP, JavaScript}
+		\cvline{\textbf{Frameworks}}{Qt, Symfony, Mootools, Bootstrap, Adobe AIR}\\
+		\cvline{\textbf{Versionnement}}{Git, Subversion}\\
+		\cvline{\textbf{SGBD}}{MySQL, Oracle}\\
+		\cvline{\textbf{SystÃ¨me}}{Linux, UNIX, Windows}\\
+		\cvline{\textbf{Bureautique}}{\LaTeX, Suite Microsoft Office, Suite Apache Openoffice}\\
+%	\end{minipage}
+%	\hfill
+		\subsection{Langues}
+		\cvline{\textbf{Anglais}}{Technique lu et Ã©crit}
+		\cvline{\textbf{FranÃ§ais}}{Langue maternelle }
+	\vspace{-10px}
+\section{Loisirs et activitÃ©s}
+\cvline{\textbf{Associatif}}{Animateur bÃ©nÃ©vole Scouts et Guides de France. Enfants de 6 Ã  8 ans (2009 -- 2012)\newline
+		Membre des organisateurs de la nuit de l'info toulousaine (2013)}
+		\cvline{\textbf{Culture}}{Lecture de science fiction (Asimov) et de fantastique (Tolkien)}
 
-%---
-% Objectif (optionnel)
-%\begin{objective}
-%trouver un stage de recherche long dans le domaine de l'électronique ou du traitement du signal.
-%\end{objective}
-%---
-
-\begin{section}{expériences}
-\end{section}
-\begin{subsection}{Expériences professionnelles}
-	\begin{entry}
-		\Skill{\scriptsize C++, Qt5}
-		\Date{2013 -- Aujourd'hui{\newline\textnormal{\bsc{Freelance}}}}
-		\Place{Conception d'une application de gestion de bilans}
-		\Locality{\textnormal{Autoentrepreneur}, \textit{Toulouse}}
-		\Country{\textit{France}}
-		\Activity{\scriptsize 
-		Développement d'une application de réalisation de bilans lombaires à destination des kinésithérapeutes de l'Association Française McKenzie. A terme
-		l'application permettra la réalisation de plusieurs types de bilans ainsi que l'acquisition et l'interprétation des données.
-} 
-
-		\Course{Site web de l'association: \url{http://www.afmck.com}}
-	\end{entry}
-	\begin{entry}
-		\Skill{\scriptsize PHP5, JavaScript, Mootools}
-		\Date{~~~~2012 {\newline\textnormal{\bsc{cdd}~\scriptsize -- 1 mois}}}
-		\Place{Participation au développement d'une application web}
-		\Locality{\newline\textnormal{Memobox/2G Technologies}, \textit{Montrabé}}
-		\Country{\textit{France}}
-		\Activity{\footnotesize Développement d'un module de communication avec des fournisseurs et refonte d'un catalogue permettant l'achat d'équipements mobiles} 
-%		\Course{\url{http://valeriederoquemaurel.com}}
-	\end{entry}
-	\begin{entry}
-		\Skill{\scriptsize PHP5, JavaScript, Adobe AIR}
-		\Date{~~~~2012{\newline\textnormal{\bsc{stage}~\scriptsize -- 3 mois}}}
-		\Place{refonte d'un système de traduction}
-		\Locality{\textnormal{Memobox/2G Technologies}, \textit{Montrabé}}
-		\Country{\textit{France}}
-		\Activity{\footnotesize Développement d'un nouveau système de traduction basé sur un moteur de traduction PHP et un client lourd permettant la traduction et la recherche de texte dans une base de données}
-%		\Course{\url{http://valeriederoquemaurel.com}}
-	\end{entry}
-	\begin{entry}
-		\Skill{PHP5, Symfony2}
-		\Date{2009 -- Aujourd'hui} 
-		\Place{élaboration d'un site Internet}
-		\Locality{\textit{Yverdon-les-bains}}
-		\Country{\textit{Suisse}}
-		\Activity{\footnotesize Développement du site d'un artisan verrier, 
-		destiné à exposer ses pièces. L'artisan peut administrer le site seul: ajouter de nouvelles photo, ajouter des événements, changer le contenu du site,
-		\ldots}
-		\Course{\url{http://valeriederoquemaurel.com}}
-	\end{entry}
-\end{subsection}
-\vspace{-10px}
-\begin{subsection}{projets personnels}
-	\begin{entry}
-		\Date{Décembre 2010, 2011, et 2012} 
-		\Place{participation à la nuit de l'informatique}
-		\Locality{\textit{Toulouse}}
-		\Country{\textit{France}}
-		\Activity{\footnotesize Concours national d'informatique réunissant des étudiants de toute la France. Le concept est de développer une application web en une nuit}
-		\Course{\url{http://nuitdelinfo.com}}
-	\end{entry}
-%	\begin{entry}
-%		\Date{2006 -- 2009} 
-%		\Place{développement d'un site Internet}
-%		\Activity{\footnotesize Dans le cadre d'un loisir, développement, maintenance et administration d'un site Internet.
-%		Celui-ci est développé en PHP en utilisant les principes du pattern MVC afin d'avoir une architecture propre, claire et stable}
-%		\Course{\url{http://bleach.joohoo.fr}}
-%	\end{entry}
-\end{subsection}
-\vspace{-10px}
-\begin{section}{formations}
-	\begin{entry}
-	\end{entry}
-	\begin{entry}
-		\Date{2012 -- 2014}
-		\Place{Licence Informatique \small parcours Ingénierie des Systèmes Informatiques}
-		\Locality{\textbf{En cours}, Université Toulouse III -- Paul Sabatier}
-		\Country{France}
-	\end{entry}
-	\begin{entry}
-		\Date{2010 -- 2012}
-		\Place{Diplôme Universitaire de Technologie informatique}
-		\Locality{\newline Institut Universitaire de
-		Technologies 'A' Toulouse -- Université Toulouse III}
-		\Country{France}
-	\end{entry}
-
-	\begin{entry}
-		\Date{2008 -- 2010}
-		\Place{baccalauréat Sciences et Techniques de l'Industriel \small Génie \mbox{Électrotechnique}}
-		\Locality{Lycée Saint Joseph Toulouse}
-		\Country{France}
-%		\Activity{}
-		\Mention{assez bien}	
-%		\Course{} %puce en forme de triangle
-	\end{entry}
-\end{section}
-\begin{section}{langues et informatique}
-\end{section}
-
-\begin{subsection}{compétences techniques}
-	\begin{entrytech}
-		\Competence{Programmation}
-		\Activity{C, C++, Java, PHP, JavaScript}
-	\end{entrytech}
-	\begin{entrytech}
-		\Competence{Frameworks}
-		\Activity{Qt, Symfony2, Mootools, Bootstrap, Adobe AIR}
-	\end{entrytech}  
-	\begin{entrytech}
-		\Competence{Versionnement}
-		\Activity{Git, Subversion}
-	\end{entrytech}  
-	\begin{entrytech}
-		\Competence{SGBD}
-		\Activity{MySQL, Oracle}
-	\end{entrytech}  
-	\begin{entrytech}
-		\Competence{Système}
-		\Activity{Linux, \bsc{unix}, Windows}
-	\end{entrytech}  
-	\begin{entrytech}
-		\Competence{Bureautique}
-		\Activity{\LaTeX, Suite Microsoft Office, Suite
-		OpenOffice}
-	\end{entrytech}  
-\end{subsection}
-\vspace{-8px}
-\begin{subsection}{compétences en langue}
-	\begin{entrytech}
-		\Competence{Anglais}
-		\Activity{Technique lu et écrit}
-	\end{entrytech}  
-\end{subsection}
-
-\begin{section}{loisirs et activités}
-\begin{entry}\end{entry}
-	\begin{entrytech}
-		\Competence{Associatif}
-		\Activity{Animateur bénévole Scouts et Guides de France. Enfants de 6 à 8 ans (2009 -- 2012)}
-	\end{entrytech}  
-	\begin{entrytech}
-		\Competence{Culture}
-		\Activity{Lecture de science fiction (Asimov) et de fantastique (Tolkien)} 
-	\end{entrytech}  
-\end{section}
-
-% Le CV termine ici
-%%%%%%%%%%%%%%%%%%%
-
-\end{document}
+\end{document} 
