@@ -1,2 +1,8 @@
-**/*aux
-**/*log
+cv/*aux
+cv/*log
+cv/*.swp
+cv/*.tcp
+cv/*.log
+cv/*.blg
+cv/*.bbl
+
