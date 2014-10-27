@@ -33,7 +33,8 @@
 \pagestyle{empty}
 \renewcommand*\familydefault{\sfdefault}
 
-\definecolor{gray}{gray}{0.6}
+\definecolor{lightgray}{gray}{0.55}
+\definecolor{gray}{gray}{0.35}
 \definecolor{green}{HTML}{C2E15F}
 \definecolor{orange}{HTML}{FDA333}
 \definecolor{purple}{HTML}{D3A4F9}
@@ -186,8 +187,8 @@
 % usage: \cvline{margintext}{linetext}
 \newcommand*{\cvlinebis}[2]{
 	\begin{tabular}{@{}p{0.15\mainwidth}@{\hspace{0.03\mainwidth}}p{0.855\mainwidth}@{}}
-		\raggedleft{#1} &{#2}\\
-	\end{tabular}\hfill
+		\raggedleft{#1} &\raggedright{#2}
+	\end{tabular}
 }
 
 % usage: \cvuniq{some text}
@@ -205,6 +206,7 @@
   
 % usage: \cventry{years}{degree/job title}{institution/employer}{localization}{optional: grade/...}{optional: comment/job description}
 \newcommand*{\cventry}[6]{
+	\hspace{0px}
 	\vspace{0.5mm}
 	\cvlinebis{#1}{
 		{\bfseries#2}
@@ -220,6 +222,10 @@
 	\ensuremath{\triangleright}~#1
 }
 
+\newcommand{\proleft}[3] {
+	#1\\\vspace{0.5mm}
+	\small{\color{gray}{#2\\#3}}
+}
 
 
 %-------------------------------------------------------------------------------
