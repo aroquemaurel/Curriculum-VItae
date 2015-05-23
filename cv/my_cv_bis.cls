@@ -19,7 +19,7 @@
 \RequirePackage[T1]{fontenc}
 \RequirePackage{lmodern}
 \RequirePackage[utf8]{inputenc}
-\RequirePackage[left=1cm,top=0cm,right=1cm, bottom=1cm,noheadfoot]{geometry}
+\RequirePackage[left=1cm,top=0.0cm,right=1.5cm, bottom=1cm,noheadfoot]{geometry}
 \RequirePackage{marvosym}% symbols like \Telefon, \Mobilefone, \Letter and \Email
 \RequirePackage{url}
 \RequirePackage{lipsum}
@@ -33,8 +33,8 @@
 \pagestyle{empty}
 \renewcommand*\familydefault{\sfdefault}
 
-\definecolor{lightgray}{gray}{0.55}
-\definecolor{gray}{gray}{0.35}
+\definecolor{lightgray}{gray}{0.45}
+\definecolor{gray}{gray}{0.30}
 \definecolor{green}{HTML}{C2E15F}
 \definecolor{orange}{HTML}{FDA333}
 \definecolor{purple}{HTML}{D3A4F9}
@@ -132,6 +132,7 @@
 	\begin{changemargin}{-1cm}{-1cm}
 		\colorbox{theme}{
 		\begin{minipage}{\paperwidth}
+		\vspace{0.2cm}
 			% photo
 			\ifx#5{
 				\hspace{1.5cm}
@@ -153,7 +154,7 @@
 			\end{minipage}
 			\vspace{4mm}
 			% contacts
-			\begin{minipage}[r]{7.0cm}
+			\begin{minipage}[r]{6.6cm}
 \vspace{10px}
 				\bfseries
 				\color{white}
@@ -224,7 +225,7 @@
 
 \newcommand{\proleft}[3] {
 	#1\\\vspace{0.5mm}
-	\small{\color{gray}{#2\\#3}}
+	\small{\color{gray}{#2}\\\color{lightgray}{#3}}
 }
 
 
