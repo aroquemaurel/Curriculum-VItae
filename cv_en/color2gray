@@ -1,0 +1,2 @@
+gs -sOutputFile=cv_graylevel.pdf -sDEVICE=pdfwrite -sColorConversionStrategy=Gray -dProcessColorModel=/DeviceGray -dCompatibilityLevel=1.4 cv_fr.pdf < /dev/null
+
