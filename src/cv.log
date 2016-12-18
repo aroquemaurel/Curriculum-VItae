@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2016.4.21)  18 DEC 2016 23:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2016.4.21)  18 DEC 2016 23:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -553,21 +553,21 @@ Package: wrapfig 2003/01/31  v 3.6
 ) (./cv.aux)
 \openout1 = `cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -637,7 +637,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring ON on input line 6.
+Package hyperref Info: Link coloring ON on input line 5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -647,158 +647,158 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count110
 )
-LaTeX Info: Redefining \ref on input line 6.
-LaTeX Info: Redefining \pageref on input line 6.
-LaTeX Info: Redefining \nameref on input line 6.
+LaTeX Info: Redefining \ref on input line 5.
+LaTeX Info: Redefining \pageref on input line 5.
+LaTeX Info: Redefining \nameref on input line 5.
 
 <Photo_mini.jpg, id=4, 501.875pt x 713.66624pt>
 File: Photo_mini.jpg Graphic file (type jpg)
  <use Photo_mini.jpg>
-Package pdftex.def Info: Photo_mini.jpg used on input line 22.
+Package pdftex.def Info: Photo_mini.jpg used on input line 21.
 (pdftex.def)             Requested size: 71.13188pt x 101.14311pt.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 22.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 21.
 
 (/usr/share/texlive/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 22.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 21.
 
 (/usr/share/texlive/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 22.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 21.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 22.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 21.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 22.
+(Font)              <10> on input line 21.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 22.
+(Font)              <7> on input line 21.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 22.
-LaTeX Font Info:    Try loading font information for T1+pag on input line 22.
+(Font)              <5> on input line 21.
+LaTeX Font Info:    Try loading font information for T1+pag on input line 21.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pag.fd
 File: t1pag.fd 2001/06/04 font definitions for T1/pag.
 )
 LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/pag/b/n' tried instead on input line 22.
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <24.88> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 22.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `T1/pag/bx/sc' in size <24.88> not available
-(Font)              Font shape `T1/pag/b/sc' tried instead on input line 22.
+(Font)              Font shape `T1/pag/b/sc' tried instead on input line 21.
 LaTeX Font Info:    Font shape `T1/pag/b/sc' in size <24.88> not available
-(Font)              Font shape `T1/pag/db/sc' tried instead on input line 22.
+(Font)              Font shape `T1/pag/db/sc' tried instead on input line 21.
 LaTeX Font Info:    Font shape `T1/pag/m/it' in size <14.4> not available
-(Font)              Font shape `T1/pag/m/sl' tried instead on input line 22.
-LaTeX Font Info:    Try loading font information for U+mvs on input line 22.
+(Font)              Font shape `T1/pag/m/sl' tried instead on input line 21.
+LaTeX Font Info:    Try loading font information for U+mvs on input line 21.
 
 (/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd)
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 22.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 21.
 
 (/usr/share/texlive/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 22.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 21.
 
-Overfull \hbox (26.89304pt too wide) in paragraph at lines 22--22
+Overfull \hbox (26.89304pt too wide) in paragraph at lines 21--21
 [][][][][][][] 
  []
 
 LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/pag/b/n' tried instead on input line 24.
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <14.4> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 24.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `T1/pag/bx/sc' in size <14.4> not available
-(Font)              Font shape `T1/pag/b/sc' tried instead on input line 24.
+(Font)              Font shape `T1/pag/b/sc' tried instead on input line 23.
 LaTeX Font Info:    Font shape `T1/pag/b/sc' in size <14.4> not available
-(Font)              Font shape `T1/pag/db/sc' tried instead on input line 24.
+(Font)              Font shape `T1/pag/db/sc' tried instead on input line 23.
 <images/logos/extia.png, id=7, 401.5pt x 401.5pt>
 File: images/logos/extia.png Graphic file (type png)
  <use images/logos/extia.png>
-Package pdftex.def Info: images/logos/extia.png used on input line 40.
+Package pdftex.def Info: images/logos/extia.png used on input line 39.
 (pdftex.def)             Requested size: 42.67912pt x 42.67642pt.
 
 <images/logos/continental.png, id=9, 219.82124pt x 287.0725pt>
 File: images/logos/continental.png Graphic file (type png)
 
 <use images/logos/continental.png>
-Package pdftex.def Info: images/logos/continental.png used on input line 57.
+Package pdftex.def Info: images/logos/continental.png used on input line 56.
 (pdftex.def)             Requested size: 56.9055pt x 74.31293pt.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 57.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 56.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 57.
+(Font)              <9> on input line 56.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 57.
+(Font)              <6> on input line 56.
 
 <images/logos/afmck.jpg, id=10, 321.2pt x 281.05pt>
 File: images/logos/afmck.jpg Graphic file (type jpg)
 
 <use images/logos/afmck.jpg>
-Package pdftex.def Info: images/logos/afmck.jpg used on input line 75.
+Package pdftex.def Info: images/logos/afmck.jpg used on input line 74.
 (pdftex.def)             Requested size: 51.21504pt x 44.81024pt.
 File: images/logos/continental.png Graphic file (type png)
  <use images/logos/continental.png>
-Package pdftex.def Info: images/logos/continental.png used on input line 90.
+Package pdftex.def Info: images/logos/continental.png used on input line 89.
 (pdftex.def)             Requested size: 56.9055pt x 74.31293pt.
 File: images/logos/continental.png Graphic file (type png)
 
 <use images/logos/continental.png>
-Package pdftex.def Info: images/logos/continental.png used on input line 106.
+Package pdftex.def Info: images/logos/continental.png used on input line 105.
 (pdftex.def)             Requested size: 56.9055pt x 74.31293pt.
 
 <images/logos/memobox.jpg, id=14, 336.25626pt x 119.44624pt>
 File: images/logos/memobox.jpg Graphic file (type jpg)
 
 <use images/logos/memobox.jpg>
-Package pdftex.def Info: images/logos/memobox.jpg used on input line 120.
+Package pdftex.def Info: images/logos/memobox.jpg used on input line 119.
 (pdftex.def)             Requested size: 56.9055pt x 20.21263pt.
 File: images/logos/memobox.jpg Graphic file (type jpg)
  <use images/logos/memobox.jpg>
-Package pdftex.def Info: images/logos/memobox.jpg used on input line 134.
+Package pdftex.def Info: images/logos/memobox.jpg used on input line 133.
 (pdftex.def)             Requested size: 56.9055pt x 20.21263pt.
 
-Overfull \hbox (20.63925pt too wide) in paragraph at lines 40--135
+Overfull \hbox (20.63925pt too wide) in paragraph at lines 39--134
   []
  []
 
 
-Overfull \hbox (20.63925pt too wide) in paragraph at lines 40--135
+Overfull \hbox (20.63925pt too wide) in paragraph at lines 39--134
   []
  []
 
 
-Overfull \hbox (20.63925pt too wide) in paragraph at lines 40--135
+Overfull \hbox (20.63925pt too wide) in paragraph at lines 39--134
   []
  []
 
 
-Overfull \hbox (25.08368pt too wide) in paragraph at lines 40--135
+Overfull \hbox (25.08368pt too wide) in paragraph at lines 39--134
     []
  []
 
 
-Overfull \hbox (25.08368pt too wide) in paragraph at lines 40--135
+Overfull \hbox (25.08368pt too wide) in paragraph at lines 39--134
     []
  []
 
 
-Overfull \hbox (25.08368pt too wide) in paragraph at lines 40--135
+Overfull \hbox (25.08368pt too wide) in paragraph at lines 39--134
     []
  []
 
 
-Overfull \hbox (25.08368pt too wide) in paragraph at lines 40--135
+Overfull \hbox (25.08368pt too wide) in paragraph at lines 39--134
     []
  []
 
@@ -840,52 +840,52 @@ gos/afmck.jpg> <./images/logos/memobox.jpg>]
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (34.86563pt too wide) in paragraph at lines 144--145
+Overfull \hbox (34.86563pt too wide) in paragraph at lines 143--144
   []
  []
 
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <10> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 150.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 149.
 
 
-Overfull \hbox (34.86563pt too wide) in paragraph at lines 150--151
+Overfull \hbox (34.86563pt too wide) in paragraph at lines 149--150
 []  []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--160
+Underfull \hbox (badness 10000) in paragraph at lines 153--159
 
  []
 
 
-Overfull \hbox (34.86563pt too wide) in paragraph at lines 170--184
+Overfull \hbox (34.86563pt too wide) in paragraph at lines 169--183
   []
  []
 
 
-Overfull \hbox (34.86563pt too wide) in paragraph at lines 170--184
+Overfull \hbox (34.86563pt too wide) in paragraph at lines 169--183
   []
  []
 
 
-Overfull \hbox (34.86563pt too wide) in paragraph at lines 170--184
+Overfull \hbox (34.86563pt too wide) in paragraph at lines 169--183
   []
  []
 
 
-Overfull \hbox (34.86563pt too wide) in paragraph at lines 170--184
+Overfull \hbox (34.86563pt too wide) in paragraph at lines 169--183
   []
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 205.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 204.
 [2
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 205.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
  (./cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 205.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 205.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 205.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 204.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 204.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 204.
  ) 
 Here is how much of TeX's memory you used:
  7801 strings out of 494990
@@ -911,7 +911,7 @@ ist/fonts/type1/public/lm/lmtk10.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /usr/share/texlive/texmf-dist/fonts/type1/urw/avantgar/uagd8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/avantgar/uagko8a.pfb>
-Output written on cv.pdf (2 pages, 416653 bytes).
+Output written on cv.pdf (2 pages, 416360 bytes).
 PDF statistics:
  107 PDF objects out of 1000 (max. 8388607)
  79 compressed objects within 1 object stream
