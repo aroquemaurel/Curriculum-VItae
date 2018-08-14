@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.12)  26 NOV 2017 11:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.24)  14 AUG 2018 23:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **cv.tex
 (./cv.tex
 LaTeX2e <2017-04-15>
-Babel <3.12> and hyphenation patterns for 84 language(s) loaded.
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (./my_cv_bis.cls
 Document Class: my_cv_bis 2014/03/02 Classe personnalisée de CV
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -50,7 +50,7 @@ Package xcolor Info: Package option `usenames' ignored on input line 216.
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
 (/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
@@ -523,7 +523,7 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \Gin@req@width=\dimen127
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
@@ -546,7 +546,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -579,7 +579,7 @@ Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 \Hy@pagecounter=\count93
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
@@ -588,40 +588,39 @@ Now handling font encoding PD1 ...
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `bookmarks' set `false' on input line 4374.
-Package hyperref Info: Option `colorlinks' set `true' on input line 4374.
-Package hyperref Info: Option `breaklinks' set `true' on input line 4374.
-Package hyperref Info: Hyper figures OFF on input line 4498.
-Package hyperref Info: Link nesting OFF on input line 4503.
-Package hyperref Info: Hyper index ON on input line 4506.
-Package hyperref Info: Plain pages OFF on input line 4513.
-Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Option `bookmarks' set `false' on input line 4383.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4383.
+Package hyperref Info: Option `breaklinks' set `true' on input line 4383.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks OFF on input line 4757.
+Package hyperref Info: Bookmarks OFF on input line 4768.
 \c@Hy@tempcnt=\count95
-LaTeX Info: Redefining \url on input line 5104.
+LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen129
 \Fld@menulength=\count96
 \Field@Width=\dimen130
 \Fld@charsize=\dimen131
-Package hyperref Info: Hyper figures OFF on input line 6358.
-Package hyperref Info: Link nesting OFF on input line 6363.
-Package hyperref Info: Hyper index ON on input line 6366.
-Package hyperref Info: backreferencing OFF on input line 6373.
-Package hyperref Info: Link coloring ON on input line 6376.
-Package hyperref Info: Link coloring with OCG OFF on input line 6383.
-Package hyperref Info: PDF/A mode OFF on input line 6388.
-LaTeX Info: Redefining \ref on input line 6428.
-LaTeX Info: Redefining \pageref on input line 6432.
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring ON on input line 6387.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
 \Hy@abspage=\count97
 \c@Item=\count98
 \c@Hfootnote=\count99
 )
-
-Package hyperref Message: Driver: hpdftex.
+Package hyperref Info: Driver: hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
 \Fld@listcount=\count100
 \c@bookmark@seq@number=\count101
 
@@ -748,10 +747,8 @@ LaTeX Info: Redefining \nameref on input line 5.
 <Photo_mini.jpg, id=4, 501.875pt x 713.66624pt>
 File: Photo_mini.jpg Graphic file (type jpg)
 <use Photo_mini.jpg>
-Package pdftex.def Info: Photo_mini.jpg  used on input line 15. on input line 1
-5.
-Package pdftex.def Info: Requested size: 71.13188pt x 101.14311pt on input line
- 15.
+Package pdftex.def Info: Photo_mini.jpg  used on input line 15.
+(pdftex.def)             Requested size: 71.13188pt x 101.14311pt.
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 15.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -821,95 +818,92 @@ LaTeX Font Info:    Font shape `T1/pag/b/sc' in size <14.4> not available
 <images/logos/extia.png, id=7, 401.5pt x 401.5pt>
 File: images/logos/extia.png Graphic file (type png)
 <use images/logos/extia.png>
-Package pdftex.def Info: images/logos/extia.png  used on input line 23. on inpu
-t line 23.
-Package pdftex.def Info: Requested size: 42.67912pt x 42.67642pt on input line 
-23.
-<images/logos/continental.png, id=9, 219.82124pt x 287.0725pt>
+Package pdftex.def Info: images/logos/extia.png  used on input line 30.
+(pdftex.def)             Requested size: 42.67912pt x 42.67642pt.
+<images/logos/tech_advantage.png, id=9, 200.75pt x 96.36pt>
+File: images/logos/tech_advantage.png Graphic file (type png)
+<use images/logos/tech_advantage.png>
+Package pdftex.def Info: images/logos/tech_advantage.png  used on input line 30
+.
+(pdftex.def)             Requested size: 71.13188pt x 34.14406pt.
+
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 30--30
+ [] 
+ []
+
+<images/logos/continental.png, id=10, 219.82124pt x 287.0725pt>
 File: images/logos/continental.png Graphic file (type png)
 <use images/logos/continental.png>
-Package pdftex.def Info: images/logos/continental.png  used on input line 40. o
-n input line 40.
-Package pdftex.def Info: Requested size: 56.9055pt x 74.31293pt on input line 4
-0.
+Package pdftex.def Info: images/logos/continental.png  used on input line 47.
+(pdftex.def)             Requested size: 56.9055pt x 74.31293pt.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 40.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 47.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 40.
+(Font)              <9> on input line 47.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 40.
-<images/logos/afmck.jpg, id=10, 321.2pt x 281.05pt>
+(Font)              <6> on input line 47.
+<images/logos/afmck.jpg, id=11, 321.2pt x 281.05pt>
 File: images/logos/afmck.jpg Graphic file (type jpg)
 <use images/logos/afmck.jpg>
-Package pdftex.def Info: images/logos/afmck.jpg  used on input line 58. on inpu
-t line 58.
-Package pdftex.def Info: Requested size: 51.21504pt x 44.81024pt on input line 
-58.
+Package pdftex.def Info: images/logos/afmck.jpg  used on input line 65.
+(pdftex.def)             Requested size: 51.21504pt x 44.81024pt.
 File: images/logos/continental.png Graphic file (type png)
 <use images/logos/continental.png>
-Package pdftex.def Info: images/logos/continental.png  used on input line 73. o
-n input line 73.
-Package pdftex.def Info: Requested size: 56.9055pt x 74.31293pt on input line 7
-3.
+Package pdftex.def Info: images/logos/continental.png  used on input line 80.
+(pdftex.def)             Requested size: 56.9055pt x 74.31293pt.
 File: images/logos/continental.png Graphic file (type png)
 <use images/logos/continental.png>
-Package pdftex.def Info: images/logos/continental.png  used on input line 89. o
-n input line 89.
-Package pdftex.def Info: Requested size: 56.9055pt x 74.31293pt on input line 8
-9.
-<images/logos/memobox.jpg, id=14, 336.25626pt x 119.44624pt>
+Package pdftex.def Info: images/logos/continental.png  used on input line 96.
+(pdftex.def)             Requested size: 56.9055pt x 74.31293pt.
+<images/logos/memobox.jpg, id=15, 336.25626pt x 119.44624pt>
 File: images/logos/memobox.jpg Graphic file (type jpg)
 <use images/logos/memobox.jpg>
-Package pdftex.def Info: images/logos/memobox.jpg  used on input line 103. on i
-nput line 103.
-Package pdftex.def Info: Requested size: 56.9055pt x 20.21263pt on input line 1
-03.
+Package pdftex.def Info: images/logos/memobox.jpg  used on input line 110.
+(pdftex.def)             Requested size: 56.9055pt x 20.21263pt.
 File: images/logos/memobox.jpg Graphic file (type jpg)
 <use images/logos/memobox.jpg>
-Package pdftex.def Info: images/logos/memobox.jpg  used on input line 117. on i
-nput line 117.
-Package pdftex.def Info: Requested size: 56.9055pt x 20.21263pt on input line 1
-17.
+Package pdftex.def Info: images/logos/memobox.jpg  used on input line 124.
+(pdftex.def)             Requested size: 56.9055pt x 20.21263pt.
 
-Overfull \hbox (20.63925pt too wide) in paragraph at lines 23--118
+Overfull \hbox (20.63925pt too wide) in paragraph at lines 30--125
   []
  []
 
 
-Overfull \hbox (20.63925pt too wide) in paragraph at lines 23--118
+Overfull \hbox (20.63925pt too wide) in paragraph at lines 30--125
   []
  []
 
 
-Overfull \hbox (20.63925pt too wide) in paragraph at lines 23--118
+Overfull \hbox (20.63925pt too wide) in paragraph at lines 30--125
   []
  []
 
 
-Overfull \hbox (25.08368pt too wide) in paragraph at lines 23--118
+Overfull \hbox (25.08368pt too wide) in paragraph at lines 30--125
     []
  []
 
 
-Overfull \hbox (25.08368pt too wide) in paragraph at lines 23--118
+Overfull \hbox (25.08368pt too wide) in paragraph at lines 30--125
     []
  []
 
 
-Overfull \hbox (25.08368pt too wide) in paragraph at lines 23--118
+Overfull \hbox (25.08368pt too wide) in paragraph at lines 30--125
     []
  []
 
 
-Overfull \hbox (25.08368pt too wide) in paragraph at lines 23--118
+Overfull \hbox (25.08368pt too wide) in paragraph at lines 30--125
     []
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Photo_mini.jpg> <./image
-s/logos/extia.png> <./images/logos/continental.png> <./images/logos/afmck.jpg> 
-<./images/logos/memobox.jpg>]
+s/logos/extia.png> <./images/logos/tech_advantage.png> <./images/logos/continen
+tal.png> <./images/logos/afmck.jpg> <./images/logos/memobox.jpg>]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -943,58 +937,58 @@ s/logos/extia.png> <./images/logos/continental.png> <./images/logos/afmck.jpg>
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (34.86563pt too wide) in paragraph at lines 127--128
+Overfull \hbox (34.86563pt too wide) in paragraph at lines 134--135
   []
  []
 
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <10> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 133.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 140.
 
 
-Overfull \hbox (34.86563pt too wide) in paragraph at lines 133--134
+Overfull \hbox (34.86563pt too wide) in paragraph at lines 140--141
 []  []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--143
+Underfull \hbox (badness 10000) in paragraph at lines 144--150
 
  []
 
 
-Overfull \hbox (34.86563pt too wide) in paragraph at lines 153--167
+Overfull \hbox (34.86563pt too wide) in paragraph at lines 160--174
   []
  []
 
 
-Overfull \hbox (34.86563pt too wide) in paragraph at lines 153--167
+Overfull \hbox (34.86563pt too wide) in paragraph at lines 160--174
   []
  []
 
 
-Overfull \hbox (34.86563pt too wide) in paragraph at lines 153--167
+Overfull \hbox (34.86563pt too wide) in paragraph at lines 160--174
   []
  []
 
 
-Overfull \hbox (34.86563pt too wide) in paragraph at lines 153--167
+Overfull \hbox (34.86563pt too wide) in paragraph at lines 160--174
   []
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 188.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
 [2
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
  (./cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 188.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 188.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 188.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 195.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 195.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 195.
  ) 
 Here is how much of TeX's memory you used:
- 7880 strings out of 492990
- 110052 string characters out of 6135004
- 317750 words of memory out of 5000000
- 11276 multiletter control sequences out of 15000+600000
+ 7888 strings out of 492982
+ 110268 string characters out of 6134896
+ 318249 words of memory out of 5000000
+ 11291 multiletter control sequences out of 15000+600000
  78498 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,16n,37p,292b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1012,10 +1006,10 @@ e/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/avantgar/uagd8a.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/urw/avantgar/uagk8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/av
 antgar/uagko8a.pfb>
-Output written on cv.pdf (2 pages, 415016 bytes).
+Output written on cv.pdf (2 pages, 421623 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
+ 109 PDF objects out of 1000 (max. 8388607)
  79 compressed objects within 1 object stream
  10 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
