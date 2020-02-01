@@ -2,7 +2,7 @@
 %                identification
 %-------------------------------------------------------------------------------
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{my_cv_bis}[2014/03/02 Classe personnalisée de CV]
+\ProvidesClass{cv_theme}[2014/03/02 Classe personnalisee de CV]
 
 %-------------------------------------------------------------------------------
 %                chargement de la classe mère
